@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-sudo apt-get install libaio1 libaio-dev
+sudo apt-get -y install libaio1 libaio-dev unzip
 docker-compose build --no-cache
