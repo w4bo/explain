@@ -4,9 +4,11 @@ import com.google.common.base.Optional
 import com.google.common.collect.Sets
 import it.unibo.Intention
 import org.apache.commons.lang3.tuple.Triple
+import org.slf4j.LoggerFactory
 import java.io.File
 
 class Describe : Intention {
+    private val logger = LoggerFactory.getLogger(Describe::class.java)
     private var models: Set<String> = Sets.newLinkedHashSet()
     var k = Optional.absent<Int>()
 
@@ -32,7 +34,7 @@ class Describe : Intention {
                 + " --computeproperty " + (if (computeProperty) "True" else "False") //
                 + " --models " + getModels().stream().reduce("") { a: String, b: String -> "$a $b" } //
                 + " --cube " + json.toString().replace(" ", "__"))
-        L.warn(fullCommand)
+        logger.warn(fullCommand)
         return fullCommand
     }
 
