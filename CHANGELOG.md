@@ -1,3 +1,28 @@
+## 1.0.0 (2022-10-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mysql:mysql-connector-java to v8.0.31 ([2a584c4](https://github.com/w4bo/explain/commit/2a584c48fed93bd8615a1dac50607a541add411c))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.6.0 ([e8f7bda](https://github.com/w4bo/explain/commit/e8f7bda59c320ab8e1bc2e0f4b2e9a032723235d))
+* **deps:** update jamesives/github-pages-deploy-action action to v4.4.1 ([f0faa60](https://github.com/w4bo/explain/commit/f0faa606a2d341813ca13e334f9807dd845a20d3))
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.6.1 ([94c6c29](https://github.com/w4bo/explain/commit/94c6c29c638edbc6f0dbfb35a063d1ed9c1a40cf))
+* **deps:** update dependency numpy to v1.23.4 ([be6a2a9](https://github.com/w4bo/explain/commit/be6a2a9c47bd2c803047586299de8dfa1ef7e130))
+* **deps:** update dependency pandas to v1.5.1 ([cd70dcb](https://github.com/w4bo/explain/commit/cd70dcb1d50335c28da263ec63452e801945d26a))
+* **deps:** update dependency scipy to v1.9.2 ([93f9ba1](https://github.com/w4bo/explain/commit/93f9ba19aa50c94d0dc01e0f2c70fe99c0397e8a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.12 ([2a9c93b](https://github.com/w4bo/explain/commit/2a9c93b079fb89daaaac2733659beb8c0ba1f43a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.13 ([b807d37](https://github.com/w4bo/explain/commit/b807d37c64464050381d2768411dc564a125394b))
+* **deps:** update dependency sqlalchemy to v1.4.42 ([aed47a3](https://github.com/w4bo/explain/commit/aed47a346e09cf52effda4734f7936d97856a983))
+* **deps:** update node.js to 16.18 ([27badeb](https://github.com/w4bo/explain/commit/27badebb9d02f76d9da3df7b3c9a779061246933))
+
 ## [1.0.22](https://github.com/w4bo/iam-demo/compare/1.0.21...1.0.22) (2022-09-15)
 
 
