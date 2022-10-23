@@ -1,3 +1,16 @@
+## [1.0.1](https://github.com/w4bo/explain/compare/1.0.0...1.0.1) (2022-10-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.opencsv:opencsv to v5.7.1 ([8fd6519](https://github.com/w4bo/explain/commit/8fd65198604ea9fa2144e36e6fc11fea5398bb5a))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.16.1 ([9ed7e68](https://github.com/w4bo/explain/commit/9ed7e6830abb9129b7ebf7054c70621c8408f2df))
+* **deps:** update dependency scipy to v1.9.3 ([070bd8c](https://github.com/w4bo/explain/commit/070bd8c84c011a9e688de54b10c637f68e9a1898))
+
 ## 1.0.0 (2022-10-19)
 
 
