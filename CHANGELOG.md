@@ -1,3 +1,18 @@
+## [1.0.2](https://github.com/w4bo/explain/compare/1.0.1...1.0.2) (2022-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.1.3 ([489408f](https://github.com/w4bo/explain/commit/489408f9363f5b7f48d5e4a55619c46adc7dad55))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.16.2 ([ecc120c](https://github.com/w4bo/explain/commit/ecc120c9faeb12d55a476bb8653d6805aa1d8be1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.14 ([802c80b](https://github.com/w4bo/explain/commit/802c80bfcf0ef2706d4946e3f66ccc798f3dd566))
+* **deps:** update node.js to 18.12 ([75869a9](https://github.com/w4bo/explain/commit/75869a934a60cfefa7e218a094fe5eb063d14a73))
+* **deps:** update node.js to v18 ([4a2fc4a](https://github.com/w4bo/explain/commit/4a2fc4a84f7419ca72d65ec11fee1f1943c258ec))
+
 ## [1.0.1](https://github.com/w4bo/explain/compare/1.0.0...1.0.1) (2022-10-23)
 
 
