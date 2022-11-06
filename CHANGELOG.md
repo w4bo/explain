@@ -1,3 +1,18 @@
+## [1.0.3](https://github.com/w4bo/explain/compare/1.0.2...1.0.3) (2022-11-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.14.0 ([8f51a12](https://github.com/w4bo/explain/commit/8f51a12bdcf17d99fc672b9022c3ee11e483deca))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.17.0 ([6681fe3](https://github.com/w4bo/explain/commit/6681fe31c0f13ebedc157874d7f21126f854105b))
+* **deps:** update dependency matplotlib to v3.6.2 ([6255412](https://github.com/w4bo/explain/commit/625541211464d63bd48918486b9c4c5ba10038b6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.15 ([55a5016](https://github.com/w4bo/explain/commit/55a50169bee22fcc0f5b43ba55474ae97122e03c))
+* **deps:** update dependency sqlalchemy to v1.4.43 ([9ea070a](https://github.com/w4bo/explain/commit/9ea070af59ab9177a7aa5f2cfda693e3780e016c))
+
 ## [1.0.2](https://github.com/w4bo/explain/compare/1.0.1...1.0.2) (2022-10-28)
 
 
