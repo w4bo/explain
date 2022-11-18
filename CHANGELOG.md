@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/w4bo/explain/compare/1.0.5...1.0.6) (2022-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-log4j12 to v2.0.4 ([2cebd62](https://github.com/w4bo/explain/commit/2cebd6206ef576e4ed15db8bb213e08245384e39))
+
 ## [1.0.5](https://github.com/w4bo/explain/compare/1.0.4...1.0.5) (2022-11-18)
 
 
