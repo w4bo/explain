@@ -1,3 +1,17 @@
+## [1.0.5](https://github.com/w4bo/explain/compare/1.0.4...1.0.5) (2022-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.4 ([6e9d5f9](https://github.com/w4bo/explain/commit/6e9d5f948a76529e66d0e555393b78590f6acba0))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.17.1 ([507d14f](https://github.com/w4bo/explain/commit/507d14fedd98477a37a833da1282c244f2c95f34))
+* **deps:** update dependency sqlalchemy to v1.4.44 ([be8256c](https://github.com/w4bo/explain/commit/be8256cddb1c23da9bd0f8a9a2d99990ba171ebd))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.7.21 ([0839f93](https://github.com/w4bo/explain/commit/0839f9379c3ffa161dbdafb4885d7277f369a811))
+
 ## [1.0.4](https://github.com/w4bo/explain/compare/1.0.3...1.0.4) (2022-11-06)
 
 
