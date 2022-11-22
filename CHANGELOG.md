@@ -1,3 +1,16 @@
+## [1.0.7](https://github.com/w4bo/explain/compare/1.0.6...1.0.7) (2022-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.14.1 ([2ce8ed8](https://github.com/w4bo/explain/commit/2ce8ed80199ad03faf3f595cfc86443fd29178eb))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.18.0 ([61373d5](https://github.com/w4bo/explain/commit/61373d502d7f1c9bab314776a54b3d8173c15be4))
+* **deps:** update dependency numpy to v1.23.5 ([fbc3411](https://github.com/w4bo/explain/commit/fbc34115b4c68eb98c50302c67d386f4204ba9bd))
+
 ## [1.0.6](https://github.com/w4bo/explain/compare/1.0.5...1.0.6) (2022-11-18)
 
 
