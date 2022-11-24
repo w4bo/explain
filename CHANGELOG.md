@@ -1,3 +1,15 @@
+## [1.0.9](https://github.com/w4bo/explain/compare/1.0.8...1.0.9) (2022-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.github.cdimascio:dotenv-kotlin to v6.4.0 ([4f6874c](https://github.com/w4bo/explain/commit/4f6874c9e5eff24938ffbdd35ef2d3561e1eba5e))
+
+
+### Dependency updates
+
+* **deps:** update dependency pandas to v1.5.2 ([099e12f](https://github.com/w4bo/explain/commit/099e12fb5da8bc9c3bd339576d51c4149d6f29c2))
+
 ## [1.0.8](https://github.com/w4bo/explain/compare/1.0.7...1.0.8) (2022-11-22)
 
 
