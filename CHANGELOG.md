@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/w4bo/explain/compare/1.0.9...1.0.10) (2022-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.5 ([f63b613](https://github.com/w4bo/explain/commit/f63b61376c20c9511089767684d909294c2edddb))
+
 ## [1.0.9](https://github.com/w4bo/explain/compare/1.0.8...1.0.9) (2022-11-24)
 
 
