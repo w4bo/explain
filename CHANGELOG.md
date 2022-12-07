@@ -1,3 +1,25 @@
+## [1.0.12](https://github.com/w4bo/explain/compare/1.0.11...1.0.12) (2022-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.7.0 ([6536981](https://github.com/w4bo/explain/commit/6536981e10897dc137e2f165f2c661438c7e095a))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6 ([232261e](https://github.com/w4bo/explain/commit/232261eccc2b0dfda540753e1b7891957fc76e8f))
+* **deps:** update dependency ipykernel to v6.18.1 ([7602d48](https://github.com/w4bo/explain/commit/7602d48f9652e50a8f300b088724053ca7ed6236))
+* **deps:** update dependency ipykernel to v6.18.2 ([ebed0b7](https://github.com/w4bo/explain/commit/ebed0b70c1bedd254280fe8669aa8205dd2bab9f))
+* **deps:** update dependency ipykernel to v6.18.3 ([54e001b](https://github.com/w4bo/explain/commit/54e001ba74d94ce38890ce7f96860404215f2953))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.7.22 ([fcf50e2](https://github.com/w4bo/explain/commit/fcf50e20d72e8bfe782382052b18fa1630f9edf0))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.7.0 ([6c1adda](https://github.com/w4bo/explain/commit/6c1adda9258e4699f19b0d6bbbabecf8a5d8e47b))
+* **deps:** update actions/setup-java action to v3.8.0 ([915d609](https://github.com/w4bo/explain/commit/915d609a4580e18c1fad0e8900d1276c029ea72d))
+
 ## [1.0.11](https://github.com/w4bo/explain/compare/1.0.10...1.0.11) (2022-11-25)
 
 
