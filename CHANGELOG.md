@@ -1,3 +1,21 @@
+## [1.0.14](https://github.com/w4bo/explain/compare/1.0.13...1.0.14) (2022-12-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.6 ([00e35ff](https://github.com/w4bo/explain/commit/00e35ffb51ca13a9627794c15280954a93a86e95))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.19.2 ([94b44c8](https://github.com/w4bo/explain/commit/94b44c86a659bd7e96803405f249c55abba55f9b))
+* **deps:** update dependency sqlalchemy to v1.4.45 ([646f19a](https://github.com/w4bo/explain/commit/646f19a307794600a10db3ac8cfb28c98506b5a1))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.2.0 ([d3bfe7d](https://github.com/w4bo/explain/commit/d3bfe7d3d2611195b6f673a72656f7d715da79b1))
+
 ## [1.0.13](https://github.com/w4bo/explain/compare/1.0.12...1.0.13) (2022-12-08)
 
 
