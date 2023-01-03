@@ -1,3 +1,25 @@
+## [1.0.16](https://github.com/w4bo/explain/compare/1.0.15...1.0.16) (2023-01-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.2.2 ([6eca749](https://github.com/w4bo/explain/commit/6eca7498b212c215dbc0d0bb6f9d3e4ebfd2105f))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.9.0 ([fb83c61](https://github.com/w4bo/explain/commit/fb83c6112908f3ffa5303890bc0e21617e6a0e0d))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.19.3 ([c854ad6](https://github.com/w4bo/explain/commit/c854ad61ef4c666af5bce91560d2b23c31867bf6))
+* **deps:** update dependency ipykernel to v6.19.4 ([d2d955c](https://github.com/w4bo/explain/commit/d2d955cfa542c3cf443007be57284a4808117dff))
+* **deps:** update dependency ipykernel to v6.20.0 ([e29856b](https://github.com/w4bo/explain/commit/e29856bee3fa8f7700a8b95d546a14ff4ca7b400))
+* **deps:** update dependency numpy to v1.24.0 ([42da017](https://github.com/w4bo/explain/commit/42da017aa6830d683abddc79fd067d49c2c86344))
+* **deps:** update dependency numpy to v1.24.1 ([8ccb6ec](https://github.com/w4bo/explain/commit/8ccb6ec75bf143ad93097e33f87ad4d844db95b7))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.8.0 ([5379bec](https://github.com/w4bo/explain/commit/5379bec93519041a537dda67f0711f8110e9bcca))
+
 ## [1.0.15](https://github.com/w4bo/explain/compare/1.0.14...1.0.15) (2022-12-13)
 
 
