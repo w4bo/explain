@@ -1,3 +1,25 @@
+## [1.0.17](https://github.com/w4bo/explain/compare/1.0.16...1.0.17) (2023-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.9.2 ([4107567](https://github.com/w4bo/explain/commit/4107567323ec8f9bd8b27702d89113da706ab099))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.3.0 ([f7382b9](https://github.com/w4bo/explain/commit/f7382b9e0bb32cacdad313e39add81a12ea74a70))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.20.1 ([ef350fe](https://github.com/w4bo/explain/commit/ef350fee92ef9425a47a89f7c147229fa33329f3))
+* **deps:** update dependency matplotlib to v3.6.3 ([d4f065f](https://github.com/w4bo/explain/commit/d4f065f3b61f8a922765109c66b1e59136400482))
+* **deps:** update dependency scipy to v1.10.0 ([4ebdaed](https://github.com/w4bo/explain/commit/4ebdaedfa1d636c326f86a62ea1619251a7344c3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.16 ([86ff2b6](https://github.com/w4bo/explain/commit/86ff2b6fa5a12d3750ac7636ed4029077f8ae800))
+* **deps:** update dependency sqlalchemy to v1.4.46 ([d2bfd35](https://github.com/w4bo/explain/commit/d2bfd35ee33e2fa1066ed01dbdcfb7380bc84e77))
+* **deps:** update node.js to 18.13 ([a8ac617](https://github.com/w4bo/explain/commit/a8ac617be5629a2c2d19aadc750f32e30d4d89a3))
+
 ## [1.0.16](https://github.com/w4bo/explain/compare/1.0.15...1.0.16) (2023-01-03)
 
 
