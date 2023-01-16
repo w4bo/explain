@@ -1,3 +1,15 @@
+## [1.0.18](https://github.com/w4bo/explain/compare/1.0.17...1.0.18) (2023-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.github.cdimascio:dotenv-kotlin to v6.4.1 ([63e513e](https://github.com/w4bo/explain/commit/63e513e6edf6d520740872b2b2c15ae65cc2eadd))
+
+
+### Dependency updates
+
+* **deps:** update dependency requests to v2.28.2 ([be36472](https://github.com/w4bo/explain/commit/be364722ad9cc10338b6b16c1963df75346402eb))
+
 ## [1.0.17](https://github.com/w4bo/explain/compare/1.0.16...1.0.17) (2023-01-12)
 
 
