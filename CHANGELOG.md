@@ -1,3 +1,16 @@
+## [1.0.19](https://github.com/w4bo/explain/compare/1.0.18...1.0.19) (2023-01-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mysql:mysql-connector-java to v8.0.32 ([0d18882](https://github.com/w4bo/explain/commit/0d18882cd39242b6f17a3b5f21699d1549a32ca7))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.20.2 ([29288e4](https://github.com/w4bo/explain/commit/29288e4b3769ca89b9779116a002a79c5ddc3bd8))
+* **deps:** update dependency pandas to v1.5.3 ([0b4eb23](https://github.com/w4bo/explain/commit/0b4eb23f107d53d9ead66d40396799cd014e73e8))
+
 ## [1.0.18](https://github.com/w4bo/explain/compare/1.0.17...1.0.18) (2023-01-16)
 
 
