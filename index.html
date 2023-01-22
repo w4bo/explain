@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>IAM Demo</title>
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <style id="compiled-css" type="text/css">
 
+        #fittingComponentTable tr {
+            cursor: pointer;
+        }
+
         th, td {
             border: 1px dotted;
-            background-color: white;
         }
 
         th {
@@ -137,6 +141,10 @@
         }
     </style>
 
+    <!-- necessary to show the results of the Explain operator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+
     <script src="libs/d3.v4.js"></script>
     <script src="libs/d3-color.v2.min.js"></script>
     <script src="libs/d3-interpolate.v2.min.js"></script>
@@ -164,26 +172,45 @@
 </div>
 
 <script type="text/javascript">
-    //<![CDATA[
-    const params = {};
-    let session = new Date().getTime()
-    let username = "foo"
-    let curid = 0
+    let session = new Date().getTime();
+    let username = "foo";
+    const params = {
+        "intention": "explain",
+        "cube": "covid"
+    };
+    let curid = 0;
+
+    /* EXPLAIN VARIABLES*/
+    let explainData;
+    let correlationPairs;
+    let correlationIndex = 0;
+    let correlationColors = [];
+    const pivotTableID = "pivotTable";
+    const chartContainerID = "scatterPlot";
+    const fittingComponentTableID = "fittingComponentTable";
 
     function setFirstIntention() {
-        if (typeof params["cube"] === 'undefined' || params["cube"] === 'covid') {
-            $("#text_0").val(splitLine("with COVID19 describe cases by continent, month for continent='Europe'"))
+        if (params["intention"] == 'explain') {
+            $("#text_0").val(splitLine("with COVID-19 by month, country for country in " +
+            "('United States Of America', 'Italy') and month in ('2020-11', '2020-12') explain cases"));
+        } else if (typeof params["cube"] === 'undefined' || params["cube"] === 'covid') {
+            $("#text_0").val(splitLine("with COVID19 describe cases by continent, month " +
+            "for continent='Europe'"));
         } else if (params["cube"] === 'elec') {
-            $("#text_0").val(splitLine("with consommation_electrique by commune, categorieconsommation, annee for commune='35238 Rennes' and categorieconsommation = 'Entreprise' assess consototale"))
+            $("#text_0").val(splitLine("with consommation_electrique by commune, " +
+            "categorieconsommation, annee for commune='35238 Rennes' and " +
+            "categorieconsommation = 'Entreprise' assess consototale"));
         } else if (params["cube"] === 'elecext' || params["cube"] === 'elec-ext') {
-            $("#text_0").val(splitLine("with consommation_electrique_ext by commune, categorieconsommation, annee for commune='35238 Rennes' and categorieconsommation = 'Entreprise' assess consototale"))
+            $("#text_0").val(splitLine("with consommation_electrique_ext by commune, " +
+            "categorieconsommation, annee for commune='35238 Rennes' and " +
+            "categorieconsommation = 'Entreprise' assess consototale"));
         }
     }
 
     function setParams() {
         window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) { params[key] = value; });
         if (params["test"]) {
-            login()
+            login();
         }
         if (typeof params["cube"] === 'undefined' || params["cube"] === 'covid') {
             $("#div_image").append('<img src="img/dfm-covid-weekly.svg" style="width: 40%" alt="DFM of the COVID cube"/>')
@@ -292,7 +319,7 @@
                     return c + ""
                 }
             });
-        
+
         d3
             .select("#component_" + key)
             .selectAll("[label]")
@@ -300,7 +327,7 @@
                 const c = d3.color(this.style.background = color(this.getAttribute("label")));
                 $(this).css('border', "1px dotted").css("background-color", c + "");
             });
-        
+
         d3
             .select("#pivot_" + key)
             .selectAll("[label]")
@@ -389,10 +416,14 @@
             ).appendTo("#card_sm_" + groupid);
         } else {
             $(
-            '<div class="col-' + (type == "pivot" ? '4' : '3') + ' card p-1" style="float: left' + (type == "pivot" ? '; overflow: auto' : "") + '">' +
-            '    <div class="dataviz w-100" style=" text-align: center; ' + (type == "pivot" ? '' : 'justify-content: center; display: flex;') + '" id="' + type + '_' + curid + '"></div>' +
+            '<div class="col-' + (type == "pivot" ? '3' : (type == "chart" ? '6' : '3')) + ' card p-1" style="float: left; ' + 
+                'overflow-x: auto; overflow-y: hidden; ">' +
+            '       <div class="dataviz w-100' + (type == "chart" ? ' chart' : '') + '" style=" text-align: center; ' + 
+                        (type == "chart" ? 'justify-content: center; display: flex;' : '') + 
+                        (type == "chart" ? '" id="' + chartContainerID + '"' : '" id="' + type + '_' + curid + '"') + 
+                    '></div>' +
             '</div>'
-            ).appendTo("#card_sm_" + groupid);   
+            ).appendTo("#card_sm_" + groupid);
         }
     }
 
@@ -419,6 +450,7 @@
             $("#card_" + i).remove()
         }
         curid = 0
+        correlationIndex = 0
         session = username + "-" + new Date().getTime()
         createCard("", 1, undefined, false) // with COVID19 by country for continent='Europe' assess deaths
         setFirstIntention()
@@ -430,18 +462,249 @@
         createCard("", 1, undefined, false)
     }
 
+    /* 
+     * **************************************************************************
+     * EXPLAIN FUNCTIONS
+     * **************************************************************************
+    */
+
+    function buildScatterPlot(chartContainer, indexCorrelation, line_color, equation) {
+        $('#' + chartContainer).empty();
+
+        const height = 500;
+        const width = 700;
+        let dataToShow;
+
+        let xLabel = correlationPairs[indexCorrelation][0];
+        let yLabel = correlationPairs[indexCorrelation][1];
+
+        let xData = getAxis(xLabel);
+        let yData = getAxis(yLabel);
+
+        /*console.log('x = ' + xData);
+        console.log('y = ' + yData);*/
+
+        let xDomain = [0, d3.max(xData) * 1.10];
+        let yDomain = [0, d3.max(yData) * 1.10];
+
+        // data = [ [1, 39343], [2, 46205], ... ... ... ]
+        let dataPoints = _.zipWith(xData, yData, (xValues, yValues) => ([xValues, yValues]));
+
+        let jsonPoints = {
+            points: dataPoints,
+            fnType: 'points',
+            graphType: 'scatter',
+            color: 'black'
+        }
+
+        let jsonEquation = 'empty';
+        if (equation !== 'None') {
+            jsonEquation = {
+                fn: equation,
+                range: [0, Number.MAX_SAFE_INTEGER],
+                graphType: 'polyline',
+                color: line_color
+            };
+        }
+
+        if (jsonEquation == 'empty') {
+            dataToShow = [jsonPoints];
+        } else {
+            dataToShow = [jsonPoints, jsonEquation];
+        }
+
+        functionPlot({
+            target: '#' + chartContainer,
+            disableZoom: false,
+            width: width,
+            height: height,
+            xAxis: {
+                label: xLabel,
+                domain: xDomain
+            },
+            yAxis: {
+                label: yLabel,
+                domain: yDomain
+            },
+            data: dataToShow
+        });
+    }
+
+    function buildHtmlExplainTable(jsonData, tableId) {
+        var columns = "columns" in jsonData ? jsonData.columns : [];
+        var index = "index" in jsonData ? jsonData.index : [];
+        var data = "data" in jsonData ? jsonData.data :[] ;
+        let columnsIsPresent = columns.length > 0 ? true : false;
+        let indexIsPresent = index.length > 0 ? true : false;
+
+        if (data.length <= 0) {
+            return "<table></table>";
+        }
+
+        var table = "<table id='" + tableId + "'>";
+        // check columns header
+        if (columnsIsPresent) {
+            table += "<tr>";
+            if (indexIsPresent) {
+                table += "<th></th>";
+            }
+            for (var i = 0; i < columns.length; i++) {
+                table += "<th>" + columns[i] + "</th>";
+            }
+            table += "</tr>";
+        }
+        
+        if (indexIsPresent) { // check index --> integrate index + columns
+            for (var i = 0; i < index.length; i++) {
+                table += "<tr>" + "<th>" + index[i] + "</th>";
+                if (columnsIsPresent) {
+                    let colRow = data[i];
+                    for (var k = 0; k < colRow.length; k++) {
+                        table += "<td>" + colRow[k] + "</td>";
+                    }
+                } else {
+                    table += "<td>" + data[i] + "</td>";
+                }
+                table += "</tr>";
+            }
+        } else {
+            for (var i = 0; i < data.length; i++) {
+                var row = data[i];
+                table += "<tr>";
+                for (var k = 0; k < row.length; k++) {
+                    table += "<td>" + row[k] + "</td>";
+                }
+                table += "</tr>";
+            }
+        }
+        return table + "</table>"; 
+    }
+
+    function buildHtmlExplainComponentTable(jsonData, tableId) {
+        var columns = "columns" in jsonData ? jsonData.columns : [];
+        var index = "index" in jsonData ? jsonData.index : [];
+        var data = "data" in jsonData ? jsonData.data :[] ;
+        let columnsIsPresent = columns.length > 0 ? true : false;
+        let indexIsPresent = index.length > 0 ? true : false;
+
+        if (data.length <= 0) {
+            return "<table></table>";
+        }
+
+        var table = "<table id='" + tableId + "'>";
+        // check columns header
+        if (columnsIsPresent) {
+            table += "<tr>";
+            for (var i = 0; i < columns.length; i++) {
+                if (columns[i] !== "Equation") {
+                    table += "<th>" + columns[i] + "</th>";
+                }
+            }
+            table += "</tr>";
+        }
+        for (var i = 0; i < data.length; i++) {
+                var row = data[i];
+                table += "<tr equation='" + row[row.length - 1] + "'>";
+                for (var k = 0; k < row.length - 1; k++) {
+                    table += "<td>" + (k == 2 ? " y = " + row[k] : row[k]) + "</td>";
+                }
+                table += "</tr>";
+            }
+        return table + "</table>"; 
+    }
+
+    function getCorrelationPairs(jsonData) {
+        let data = jsonData.data;
+        let pairs = _.map(data, rowArray => _.first(rowArray)); // take 'Components' cell
+        return _.map(pairs, pair => pair.replace(/\(|\)| /g, "").split(","));
+    }
+
+    // return all values of the desired column as an array
+    function getAxis(asix) {
+        return _.toArray(explainData.cube[asix]);
+    }
+
+    function generateLightColorRgb() {
+        const red = Math.floor((1 + Math.random()) * 256/2);
+        const green = Math.floor((1 + Math.random()) * 256/2);
+        const blue = Math.floor((1 + Math.random()) * 256/2);
+        return "rgb(" + red + ", " + green + ", " + blue + ")";
+    }
+
+    function generateRandomColors() {
+        _.forEach(_.range(correlationPairs.length),
+            () => correlationColors.push(generateLightColorRgb())
+        );
+    }
+    
+    function addCellColors(tableId, color) {
+        $("#" + tableId + " td").each(function() {
+            $(this).css("background-color", color);
+        });
+    }
+
+    function addRowColors(tableId) {
+        $('table#' + tableId + ' > tbody > tr').not(':first').each(function(index) {
+            $(this).css("background-color", correlationColors[index]);
+        });
+    }
+
+    $(document).on('click','table#' + fittingComponentTableID + ' tr', function(event) {
+        const rowIndex = $(this).index() - 1;
+        if (rowIndex >= 0 && rowIndex != correlationIndex) {
+            let color = $(this).css('background-color');
+            let equation = $(this).attr('equation');
+            addCellColors(pivotTableID, color);
+            buildScatterPlot(chartContainerID, rowIndex, color, equation);
+            correlationIndex = rowIndex;
+        }
+    });
+
     function send(actiontype, id, previd, k) {
         document.getElementById("loader").style.display = "block"
         $.ajax({
             url: config["ip"],
             type: "GET",
             crossDomain: true,
-            data: {sessionid: session, value: $("#text_" + id)[0].value + " ", k: k, actiontype: actiontype},
+            data: {
+                sessionid: session, 
+                value: $("#text_" + id)[0].value + " ", 
+                k: k, 
+                actiontype: actiontype
+            },
             dataType: "json",
             success: function (newdata) {
                 if (!$.isEmptyObject(newdata)) {
                     if (typeof newdata["error"] !== "undefined") {
-                        alert("ERROR: " + newdata["error"]);
+                        alert("ERROR. Open the console to see the details");
+                        console.log("ERROR: " + newdata["error"]);
+                    } else if ($("#text_0").val().split(" ").includes("explain")) {
+                        // console.log("EXPLAIN DATA: " + JSON.stringify(newdata));
+                        explainData = newdata;
+                        correlationPairs = getCorrelationPairs(newdata.fitting_component_table);
+                        generateRandomColors();
+
+                        cleanAll();
+                        let groupid = curid;
+                        createSmallMultipleCards(groupid);
+
+                        createSmallMultipleCard(groupid, "chart");
+
+                        createSmallMultipleCard(groupid, "component");
+                        $("#component_" + curid).html(
+                            buildHtmlExplainComponentTable(newdata.fitting_component_table, fittingComponentTableID)
+                        );
+
+                        createSmallMultipleCard(groupid, "pivot");
+                        $("#pivot_" + curid).html(
+                            buildHtmlExplainTable(newdata.pivot_table, pivotTableID)
+                        );
+
+                        addRowColors(fittingComponentTableID);
+                        addCellColors(pivotTableID, correlationColors[correlationIndex]);
+
+                        buildScatterPlot(chartContainerID, correlationIndex, correlationColors[correlationIndex], 
+                        $('#' + fittingComponentTableID + ' tr:eq(1)').attr("equation"));
                     } else {
                         const groupid = curid
                         createSmallMultipleCards(groupid)
@@ -522,7 +785,6 @@
         });
         changeColor(id, components)
     }
-    //]]>
 
     function login() {
         $('#exampleModal').modal('show')
