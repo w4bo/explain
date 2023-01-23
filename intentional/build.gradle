@@ -18,21 +18,21 @@ kotlin { jvmToolchain { languageVersion.set(JavaLanguageVersion.of(14)) } }
 
 compileJava {
     dependsOn generateGrammarSource
-    sourceCompatibility = '11'
-    targetCompatibility = '11'
+    sourceCompatibility = '14'
+    targetCompatibility = '14'
 }
 
 compileKotlin {
     dependsOn generateGrammarSource
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "14"
     }
 }
 
 compileTestKotlin {
     dependsOn generateGrammarSource
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "14"
     }
 }
 
