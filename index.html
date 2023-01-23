@@ -191,8 +191,8 @@
 
     function setFirstIntention() {
         if (params["intention"] == 'explain') {
-            $("#text_0").val(splitLine("with COVID-19 by month, country for country in " +
-            "('United States Of America', 'Italy') and month in ('2020-11', '2020-12') explain cases"));
+            $("#text_0").val(splitLine("with sales_fact_1997 by product_name, the_month " +
+                    "for product_name in ('Kiwi Lox', 'CDR Salt') explain unit_sales"));
         } else if (typeof params["cube"] === 'undefined' || params["cube"] === 'covid') {
             $("#text_0").val(splitLine("with COVID19 describe cases by continent, month " +
             "for continent='Europe'"));
