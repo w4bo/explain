@@ -42,7 +42,6 @@ class IAMServlet : HttpServlet() {
         val status: Int
         val result: JSONObject
         val error = JSONObject()
-        Intention.DEBUG = true
         connectionCounter.release()
         try {
             cleanOldFiles(servletContext.getRealPath("WEB-INF/classes"))
@@ -71,6 +70,7 @@ class IAMServlet : HttpServlet() {
                             a
                         }
                         else -> {
+                            Intention.DEBUG = true
                             val explain = ExplainExecute.parse(value2key(value))
                             result = ExplainExecute.execute(explain,
                                 servletContext.getRealPath("WEB-INF/classes/"), PYTHON_PATH).first
