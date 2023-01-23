@@ -57,9 +57,9 @@ internal class TestExplain {
     fun foodTest() {
         try {
             print(path)
-            val componentTable: DataFrame = dataFrameOf("Component", "Interest", "Property", "Equation")(
-                "(unit_sales, store_sales)",   0.62, "2.14x-3.76", "2.1362029991047442045726x-3.7597940913160079468014",
-                "(unit_sales, store_cost)",    0.48, "0.87x-1.67", "0.8661331524171885787311x-1.6747059534467276797898"
+            val componentTable: DataFrame = dataFrameOf("Component", "Interest", "Property")(
+                "(unit_sales, store_sales)",   0.62, "2.14x-3.76",
+                "(unit_sales, store_cost)",    0.48, "0.87x-1.67"
             )
             val intention: Explain = ExplainExecute.parse("with sales_fact_1997 by product_name, the_month " +
                     "for product_name in ('Kiwi Lox', 'CDR Salt') explain unit_sales")
@@ -75,8 +75,8 @@ internal class TestExplain {
     @Test
     fun covidTest() {
         try {
-            val componentTable: DataFrame = dataFrameOf("Component", "Interest", "Property", "Equation")(
-                "(cases, deaths)", 0.74, "0.01x+515.88", "0.0117614004089655211499x+515.8827766131709040564601"
+            val componentTable: DataFrame = dataFrameOf("Component", "Interest", "Property")(
+                "(cases, deaths)", 0.74, "0.01x+515.88"
             )
             val intention: Explain = ExplainExecute.parse("with COVID-19 by month, country " +
                     "for month in ('2020-11', '2020-12') explain cases")
