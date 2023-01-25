@@ -9,7 +9,8 @@ import it.unibo.antlr.gen.DescribeParser
 import it.unibo.conversational.database.QueryGenerator
 import it.unibo.conversational.datatypes.DependencyGraph
 import krangl.*
-import org.antlr.v4.runtime.ANTLRInputStream
+import org.antlr.v4.runtime.CharStream
+import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream
 import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.ParseTreeWalker
@@ -17,8 +18,10 @@ import org.apache.commons.lang3.tuple.Pair
 import org.json.JSONObject
 import org.slf4j.LoggerFactory
 import java.io.File
+import java.util.stream.Collectors
 import kotlin.math.abs
 import kotlin.math.roundToInt
+import kotlin.streams.toList
 
 /**
  * Describe intention in action.
@@ -46,7 +49,8 @@ object DescribeExecute {
     }
 
     fun parse(d: Intention?, input: String?, accumulateAttributes: Boolean): Describe {
-        val lexer = DescribeLexer(ANTLRInputStream(input)) // new ANTLRInputStream(System.in);
+        val charStream: CharStream? = if (input != null) CharStreams.fromString(input) else CharStreams.fromStream(System.`in`)
+        val lexer = DescribeLexer(charStream) // new input stream
         val tokens = CommonTokenStream(lexer) // create a buffer of tokens pulled from the lexer
         val parser = DescribeParser(tokens) // create a parser that feeds off the tokens buffer
         val tree: ParseTree = parser.describe() // begin parsing at init rule
@@ -60,7 +64,7 @@ object DescribeExecute {
      * Extend the cube with the proxy cells.
      *
      * @param d the current intention
-     * @param cube the current cube
+     * @param c the current cube
      */
     fun extendCubeWithProxy(d: Intention, c: DataFrame, p: DataFrame): Triple<DataFrame, DataFrame, Set<String>> {
         val prevGc = d.previousAttributes // get the previous coordinate

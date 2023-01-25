@@ -6,6 +6,7 @@ import it.unibo.assessext.AssessExecuteExt
 import it.unibo.conversational.database.Config
 import it.unibo.conversational.database.DBmanager
 import it.unibo.describe.DescribeExecute
+import it.unibo.explain.ExplainExecute
 import kotlinx.coroutines.sync.Semaphore
 import org.apache.commons.io.FileUtils
 import org.apache.commons.io.filefilter.AgeFileFilter
@@ -38,30 +39,43 @@ class IAMServlet : HttpServlet() {
      */
     @Throws(ServletException::class)
     override fun doGet(request: HttpServletRequest, response: HttpServletResponse) {
-        var result = JSONObject()
-        val error = JSONObject()
         val status: Int
+        val result: JSONObject
+        val error = JSONObject()
         connectionCounter.release()
         try {
             cleanOldFiles(servletContext.getRealPath("WEB-INF/classes"))
             val value: String = manipulateInString(request.getParameter("value"))
-            val sessionID: String = request.getParameter("sessionid")
+            val sessionID: String = if (value.lowercase().contains("explain")) ""
+                else request.getParameter("sessionid")
             error.put("value", value)
             if (!empty(value)) {
                 val intention: Intention =
-                    if (value.lowercase().contains("describe")) {
-                        val session = cache[sessionID]
-                        if (session == null) {
-                            DescribeExecute.Vcoord.clear()
-                            DescribeExecute.Vmemb.clear()
+                    when {
+                        value.lowercase().contains("describe") -> {
+                            val session = cache[sessionID]
+                            if (session == null) {
+                                DescribeExecute.Vcoord.clear()
+                                DescribeExecute.Vmemb.clear()
+                            }
+                            val d = DescribeExecute.parse(cache[sessionID], value, false)
+                            result = DescribeExecute.execute(d, servletContext.getRealPath("WEB-INF/classes/"),
+                                PYTHON_PATH, makePivot = true, oldInterest = false).first
+                            d
                         }
-                        val d = DescribeExecute.parse(cache[sessionID], value, false)
-                        result = DescribeExecute.execute(d, servletContext.getRealPath("WEB-INF/classes/"), PYTHON_PATH, makePivot = true, oldInterest = false).first
-                        d
-                    } else {
-                        val a = AssessExecuteExt.parse(value2key(value), 1)
-                        result = AssessExecuteExt.execute(a, servletContext.getRealPath("WEB-INF/classes/"), PYTHON_PATH)
-                        a
+                        value.lowercase().contains("assess") -> {
+                            val a = AssessExecuteExt.parse(value2key(value), 1)
+                            result = AssessExecuteExt.execute(a, servletContext.getRealPath("WEB-INF/classes/"),
+                                PYTHON_PATH)
+                            a
+                        }
+                        else -> {
+                            Intention.DEBUG = true
+                            val explain = ExplainExecute.parse(value2key(value))
+                            result = ExplainExecute.execute(explain,
+                                servletContext.getRealPath("WEB-INF/classes/"), PYTHON_PATH).first
+                            explain
+                        }
                     }
                 cache[sessionID] = intention
                 status = OK
@@ -97,7 +111,8 @@ class IAMServlet : HttpServlet() {
     }
 
     fun value2key(value: String): String {
-        return value.replace("<[\\w\\(\\),\\s\\.]*>".toRegex(), "").replace("\\n".toRegex(), " ").replace("\\s+".toRegex(), " ")
+        return value.replace("<[\\w\\(\\),\\s\\.]*>".toRegex(), "")
+            .replace("\\n".toRegex(), " ").replace("\\s+".toRegex(), " ")
     }
 
     /**

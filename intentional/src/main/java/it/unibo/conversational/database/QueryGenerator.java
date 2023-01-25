@@ -9,10 +9,7 @@ import org.apache.commons.lang3.tuple.Pair;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static it.unibo.conversational.database.DBmanager.*;
 
@@ -21,7 +18,19 @@ import static it.unibo.conversational.database.DBmanager.*;
  */
 public final class QueryGenerator {
 
-    private QueryGenerator() {
+    private QueryGenerator() {}
+
+    /**
+     * @return all measures of the cube
+     */
+    public static Set<String> getMeasures(final Cube cube) {
+        final Set<String> measures = new HashSet<>();
+        executeMetaQuery(cube, "SELECT *" + " FROM `" + tabMEASURE + "`", res -> {
+            while (res.next()) {
+                measures.add(res.getString(name(tabMEASURE)));
+            }
+        });
+        return measures;
     }
 
     /**

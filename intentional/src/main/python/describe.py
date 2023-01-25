@@ -31,9 +31,11 @@ models = args.models
 ###############################################################################
 # APPLY MODELS
 ###############################################################################
+
+# noinspection PyBroadException
 try:
     X = pd.read_csv(path + file + "_" + str(session_step) + ".csv", encoding='cp1252')
-except Error:
+except:
     X = pd.read_csv(path + file + "_" + str(session_step) + ".csv", encoding="utf-8")
 
 X.columns = [x.lower() for x in X.columns]
