@@ -1,5 +1,5 @@
 #!/bin/bash
 set -xo
 set -e
-echo $(pwd)
-docker run -p "8089:80" --rm -v $(pwd):/var/www/html mattrayner/lamp:latest-1804
+echo ${PWD}
+docker run -p "80:80" -v ${PWD}:/var/www/html mattrayner/lamp:latest-1804
