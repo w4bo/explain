@@ -1,3 +1,15 @@
+## [1.0.21](https://github.com/w4bo/explain/compare/1.0.20...1.0.21) (2023-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.14.2 ([0876d9c](https://github.com/w4bo/explain/commit/0876d9c4fc49daec27a49e8bd05a442d7630edd9))
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2 ([afe23ca](https://github.com/w4bo/explain/commit/afe23ca1f07381afe02b9d790eee8c60b4eb390b))
+
 ## [1.0.20](https://github.com/w4bo/explain/compare/1.0.19...1.0.20) (2023-01-21)
 
 
