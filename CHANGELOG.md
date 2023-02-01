@@ -1,3 +1,15 @@
+## [1.0.23](https://github.com/w4bo/explain/compare/1.0.22...1.0.23) (2023-02-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.2.3 ([68a32a0](https://github.com/w4bo/explain/commit/68a32a0d2245f02d098e3c6fb607f711e2cb4177))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.21.0 ([427bed9](https://github.com/w4bo/explain/commit/427bed9ad219327e65281a7a52ffd71fcf20c47c))
+
 ## [1.0.22](https://github.com/w4bo/explain/compare/1.0.21...1.0.22) (2023-01-29)
 
 
