@@ -1,3 +1,15 @@
+## [1.0.24](https://github.com/w4bo/explain/compare/1.0.23...1.0.24) (2023-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.commons:commons-csv to v1.10.0 ([b01be8a](https://github.com/w4bo/explain/commit/b01be8ab38bcc111df5850e9d520238ece27ca4d))
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2.0.1 ([7c8f664](https://github.com/w4bo/explain/commit/7c8f6647fe852df7e5e648203b08b5a8fa58677c))
+
 ## [1.0.23](https://github.com/w4bo/explain/compare/1.0.22...1.0.23) (2023-02-01)
 
 
