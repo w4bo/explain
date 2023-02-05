@@ -1,3 +1,17 @@
+## [1.0.25](https://github.com/w4bo/explain/compare/1.0.24...1.0.25) (2023-02-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.8.0 ([f05bd9a](https://github.com/w4bo/explain/commit/f05bd9a317169b69a0ccbb9067f88d827feed7a9))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.21.1 ([fbdb03e](https://github.com/w4bo/explain/commit/fbdb03ecf5f3ae878cdd279e71b9f23d18192091))
+* **deps:** update node.js to 18.14 ([d9a6de6](https://github.com/w4bo/explain/commit/d9a6de63cc3f9680964fba8c6424ab5756715b1c))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.8.10 ([64b957c](https://github.com/w4bo/explain/commit/64b957c91a59a620f01d6c1b5714783ad6fb7665))
+
 ## [1.0.24](https://github.com/w4bo/explain/compare/1.0.23...1.0.24) (2023-02-02)
 
 
