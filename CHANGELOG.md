@@ -1,3 +1,26 @@
+## [1.0.26](https://github.com/w4bo/explain/compare/1.0.25...1.0.26) (2023-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.antlr:antlr4 to v4.12.0 ([0ff9f11](https://github.com/w4bo/explain/commit/0ff9f11b50723e58e9cb5dda6e90cfaf31a06e49))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.10.0 ([2265e41](https://github.com/w4bo/explain/commit/2265e414bf9b8f62b44fc82400c7ee7775db8733))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.21.2 ([d94920d](https://github.com/w4bo/explain/commit/d94920d508a48df6e7e8328783af0b54a4cd1740))
+* **deps:** update dependency matplotlib to v3.7.0 ([282718e](https://github.com/w4bo/explain/commit/282718ef974dfa73ba7c899d36ae560f6f734f80))
+* **deps:** update dependency numpy to v1.24.2 ([ecbcb9f](https://github.com/w4bo/explain/commit/ecbcb9f852767aae5efdf6210f8f806bf419df52))
+* **deps:** update dependency scipy to v1.10.1 ([53458aa](https://github.com/w4bo/explain/commit/53458aaa32c69d2677a35dbc658dfb020bacb4f2))
+* **deps:** update dependency sqlalchemy to v2.0.2 ([f6c1249](https://github.com/w4bo/explain/commit/f6c12498e4490d31a775c95e0d128ed079cbb9ce))
+* **deps:** update dependency sqlalchemy to v2.0.3 ([64bc05e](https://github.com/w4bo/explain/commit/64bc05e426e0ca20181f5b07c32c7e78795cee73))
+* **deps:** update dependency sqlalchemy to v2.0.4 ([50e87bb](https://github.com/w4bo/explain/commit/50e87bb706645f6293af813980fe0dace4041b56))
+
 ## [1.0.25](https://github.com/w4bo/explain/compare/1.0.24...1.0.25) (2023-02-05)
 
 
