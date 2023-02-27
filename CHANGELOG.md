@@ -1,3 +1,15 @@
+## [1.0.27](https://github.com/w4bo/explain/compare/1.0.26...1.0.27) (2023-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.json:json to v20230227 ([831defa](https://github.com/w4bo/explain/commit/831defa1b9d6588abf2f2435ef07cfaed0c1863e))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6.1 ([2b8a834](https://github.com/w4bo/explain/commit/2b8a8348ca0f1189e586ecbbe1d37da7e8a6b649))
+
 ## [1.0.26](https://github.com/w4bo/explain/compare/1.0.25...1.0.26) (2023-02-20)
 
 
