@@ -1,3 +1,18 @@
+## [1.0.29](https://github.com/w4bo/explain/compare/1.0.28...1.0.29) (2023-03-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.jooq:jool to v0.9.15 ([3c51070](https://github.com/w4bo/explain/commit/3c510709248cdc57b930ddabb5ea37e479f18a00))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.21.3 ([744204e](https://github.com/w4bo/explain/commit/744204e6b5f3cb32457c9a2809e9c3ceab3e423e))
+* **deps:** update dependency matplotlib to v3.7.1 ([95da9f2](https://github.com/w4bo/explain/commit/95da9f20c0f365b7b6b4547822824d353f88def9))
+* **deps:** update dependency sqlalchemy to v2.0.5.post1 ([fb7a8e6](https://github.com/w4bo/explain/commit/fb7a8e658a4b9aa856de4611e0b1fb5d03ae459d))
+* **deps:** update node.js to 18.15 ([9b16396](https://github.com/w4bo/explain/commit/9b16396e2d72546f4c1e350a06ad5d969a6f037d))
+
 ## [1.0.28](https://github.com/w4bo/explain/compare/1.0.27...1.0.28) (2023-02-28)
 
 
