@@ -1,3 +1,21 @@
+## [1.0.30](https://github.com/w4bo/explain/compare/1.0.29...1.0.30) (2023-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.7 ([d004d12](https://github.com/w4bo/explain/commit/d004d1257e220ca896d47435dd9a994de47448b0))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.4.0 ([8bb245f](https://github.com/w4bo/explain/commit/8bb245fbed62825af54a9c79ece83a6a32c7ca2a))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.17 ([a54d599](https://github.com/w4bo/explain/commit/a54d59908faf4249bf5b71a5489a4038c243bb9f))
+* **deps:** update dependency sqlalchemy to v2.0.6 ([22c1cbd](https://github.com/w4bo/explain/commit/22c1cbd46f0841291b600bad2598d75b2381e2a8))
+
 ## [1.0.29](https://github.com/w4bo/explain/compare/1.0.28...1.0.29) (2023-03-08)
 
 
