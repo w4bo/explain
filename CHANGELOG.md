@@ -1,3 +1,17 @@
+## [1.0.32](https://github.com/w4bo/explain/compare/1.0.31...1.0.32) (2023-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency edu.stanford.nlp:stanford-corenlp to v4.5.3 ([8b52f43](https://github.com/w4bo/explain/commit/8b52f43e1be24e4426d6c1a79565aa1e0cd68009))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.22.0 ([d386d66](https://github.com/w4bo/explain/commit/d386d66a346f0c99b00cf7472df1f9b232000a3b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.19 ([a021a41](https://github.com/w4bo/explain/commit/a021a41802e94678c37ca744252aa2fcb1cf4754))
+* **deps:** update dependency sqlalchemy to v2.0.7 ([fd6c4be](https://github.com/w4bo/explain/commit/fd6c4be9eebd7d758d98a8a13df7dcdd9fdece33))
+
 ## [1.0.31](https://github.com/w4bo/explain/compare/1.0.30...1.0.31) (2023-03-18)
 
 
