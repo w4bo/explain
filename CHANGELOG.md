@@ -1,3 +1,22 @@
+## [1.0.33](https://github.com/w4bo/explain/compare/1.0.32...1.0.33) (2023-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.9.0 ([0e408fe](https://github.com/w4bo/explain/commit/0e408fe702e7e5afb023f509cf60a7b61c01a8bf))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.0 ([b1ba160](https://github.com/w4bo/explain/commit/b1ba1604e29e5595dbbf5c6d275fc6aa9a5351ca))
+* **deps:** update actions/setup-java action to v3.11.0 ([13e0bab](https://github.com/w4bo/explain/commit/13e0bab365973b019ab771de7a4e5248ba694de6))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.21 ([a6e63a9](https://github.com/w4bo/explain/commit/a6e63a95dc74617bfc8962ff1466fe37624f08bd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.22 ([80924ca](https://github.com/w4bo/explain/commit/80924ca06b9c155e2de88ce4be3d04e415f2a22b))
+
 ## [1.0.32](https://github.com/w4bo/explain/compare/1.0.31...1.0.32) (2023-03-21)
 
 
