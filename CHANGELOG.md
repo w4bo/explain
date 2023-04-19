@@ -1,3 +1,26 @@
+## [1.0.34](https://github.com/w4bo/explain/compare/1.0.33...1.0.34) (2023-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mysql:mysql-connector-java to v8.0.33 ([d0913bd](https://github.com/w4bo/explain/commit/d0913bdbd684b241bbe222ef12edc5986b82d687))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.23 ([0f1722b](https://github.com/w4bo/explain/commit/0f1722bfc97821bec77d0f5424e5c29c77218acc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.24 ([6e8b81f](https://github.com/w4bo/explain/commit/6e8b81fd59ff6c6b285044573747d5fb892b93f8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.25 ([9664f39](https://github.com/w4bo/explain/commit/9664f393c7cb387cf8ad4dc29af7a1912ff2d055))
+* **deps:** update dependency sqlalchemy to v2.0.8 ([4d0273e](https://github.com/w4bo/explain/commit/4d0273e29fae92bd574ade94565a01de757a07fe))
+* **deps:** update dependency sqlalchemy to v2.0.9 ([3227281](https://github.com/w4bo/explain/commit/32272814103d463b66b68405fea5da683556e393))
+* **deps:** update node.js to 18.16 ([61a5b98](https://github.com/w4bo/explain/commit/61a5b98b5c4afe24275a91a0e0e44dd8a05bcefc))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.1 ([8334826](https://github.com/w4bo/explain/commit/833482614eb2b2a78122791feba72804e36b2793))
+* **deps:** update actions/checkout action to v3.5.2 ([7aa7e88](https://github.com/w4bo/explain/commit/7aa7e886a8b9ed5d2e3db7c307b4c9b6fd7a7069))
+
 ## [1.0.33](https://github.com/w4bo/explain/compare/1.0.32...1.0.33) (2023-03-28)
 
 
