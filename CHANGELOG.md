@@ -1,3 +1,10 @@
+## [1.0.37](https://github.com/w4bo/explain/compare/1.0.36...1.0.37) (2023-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.15.0 ([f3ae398](https://github.com/w4bo/explain/commit/f3ae39871d26e95eb1b26649fcfc79abfed44748))
+
 ## [1.0.36](https://github.com/w4bo/explain/compare/1.0.35...1.0.36) (2023-04-24)
 
 
