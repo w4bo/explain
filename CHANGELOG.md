@@ -1,3 +1,10 @@
+## [1.0.39](https://github.com/w4bo/explain/compare/1.0.38...1.0.39) (2023-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.9.3 ([2f5b0fb](https://github.com/w4bo/explain/commit/2f5b0fbf4298d42975d1abf9ac87bb6fa8d3089a))
+
 ## [1.0.38](https://github.com/w4bo/explain/compare/1.0.37...1.0.38) (2023-04-25)
 
 
