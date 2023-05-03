@@ -1,3 +1,18 @@
+## [1.0.40](https://github.com/w4bo/explain/compare/1.0.39...1.0.40) (2023-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.jgrapht:jgrapht-core to v1.5.2 ([67ab6f0](https://github.com/w4bo/explain/commit/67ab6f0af35d78c7e564bbf5d018063ddbb41ebc))
+
+
+### Dependency updates
+
+* **deps:** update dependency requests to v2.29.0 ([fe0f873](https://github.com/w4bo/explain/commit/fe0f87341a80a720f8b8f6a2ee0d8f9e7a347ae3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.26 ([2384c0c](https://github.com/w4bo/explain/commit/2384c0c8ceff7d9944eadf7dd73f202e191f7308))
+* **deps:** update dependency sqlalchemy to v2.0.11 ([533d3d8](https://github.com/w4bo/explain/commit/533d3d8e29a1e2839439ceb82b14bee3e6dbc3df))
+* **deps:** update dependency sqlalchemy to v2.0.12 ([9760ca9](https://github.com/w4bo/explain/commit/9760ca9d51a8daaffb7dd8f104e80ac231a3f5a5))
+
 ## [1.0.39](https://github.com/w4bo/explain/compare/1.0.38...1.0.39) (2023-04-26)
 
 
