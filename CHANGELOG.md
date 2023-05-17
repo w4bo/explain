@@ -1,3 +1,18 @@
+## [1.0.41](https://github.com/w4bo/explain/compare/1.0.40...1.0.41) (2023-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.15.1 ([b13e5c8](https://github.com/w4bo/explain/commit/b13e5c80250e5360f0fe22ad5e23692cd2420b75))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.23.0 ([6e00528](https://github.com/w4bo/explain/commit/6e005285f6137aad1cbfde29bd743e2b0fb6f4cd))
+* **deps:** update dependency ipykernel to v6.23.1 ([47bd68a](https://github.com/w4bo/explain/commit/47bd68a9c7713bd62bdee94f3dfe29fda25f13ac))
+* **deps:** update dependency requests to v2.30.0 ([ada86bd](https://github.com/w4bo/explain/commit/ada86bd4bee8be5a4c2ba31046b1c2cd112bc643))
+* **deps:** update dependency sqlalchemy to v2.0.13 ([25dd269](https://github.com/w4bo/explain/commit/25dd2692ea43be651a7b4962be1373b297c9671d))
+
 ## [1.0.40](https://github.com/w4bo/explain/compare/1.0.39...1.0.40) (2023-05-03)
 
 
