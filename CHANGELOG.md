@@ -1,3 +1,15 @@
+## [1.0.43](https://github.com/w4bo/explain/compare/1.0.42...1.0.43) (2023-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.12.0 ([16e7fba](https://github.com/w4bo/explain/commit/16e7fba332415ea678ad8c563c369d25568dea9b))
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2.0.14 ([7732a20](https://github.com/w4bo/explain/commit/7732a20e1e67f0ae4a9ccb8dedd3672e38420499))
+
 ## [1.0.42](https://github.com/w4bo/explain/compare/1.0.41...1.0.42) (2023-05-17)
 
 
