@@ -1,3 +1,15 @@
+## [1.0.44](https://github.com/w4bo/explain/compare/1.0.43...1.0.44) (2023-05-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.antlr:antlr4 to v4.13.0 ([f6f14dd](https://github.com/w4bo/explain/commit/f6f14dd5dccbb18e549b84e4fb41bef58b42ed00))
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2.0.15 ([eabcc36](https://github.com/w4bo/explain/commit/eabcc363f138e12f8846516a43c1ee9813ba58af))
+
 ## [1.0.43](https://github.com/w4bo/explain/compare/1.0.42...1.0.43) (2023-05-18)
 
 
