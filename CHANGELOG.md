@@ -1,3 +1,15 @@
+## [1.0.45](https://github.com/w4bo/explain/compare/1.0.44...1.0.45) (2023-05-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.9.1 ([1a99888](https://github.com/w4bo/explain/commit/1a998889477b12602195ec8c1a6d09df32939582))
+
+
+### Dependency updates
+
+* **deps:** update dependency requests to v2.31.0 ([205ac43](https://github.com/w4bo/explain/commit/205ac4352fe6824f6ac22fe2ca4df853b95d7ff2))
+
 ## [1.0.44](https://github.com/w4bo/explain/compare/1.0.43...1.0.44) (2023-05-21)
 
 
