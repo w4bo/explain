@@ -1,3 +1,15 @@
+## [1.0.46](https://github.com/w4bo/explain/compare/1.0.45...1.0.46) (2023-05-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32 ([6adf3f9](https://github.com/w4bo/explain/commit/6adf3f972c0724c7722b04db87754fc1fe877192))
+
+
+### Build and continuous integration
+
+* **deps:** update jamesives/github-pages-deploy-action action to v4.4.2 ([457e95c](https://github.com/w4bo/explain/commit/457e95cf9b061d432c948ede47a73b41dea21968))
+
 ## [1.0.45](https://github.com/w4bo/explain/compare/1.0.44...1.0.45) (2023-05-26)
 
 
