@@ -1,3 +1,15 @@
+## [1.0.47](https://github.com/w4bo/explain/compare/1.0.46...1.0.47) (2023-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.15.2 ([216f711](https://github.com/w4bo/explain/commit/216f711967c68ab2855c73f8d23ac0659fb9f39a))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.27 ([bea180b](https://github.com/w4bo/explain/commit/bea180b6c13c849d1f83ba67b8fd5996141c9fd8))
+
 ## [1.0.46](https://github.com/w4bo/explain/compare/1.0.45...1.0.46) (2023-05-27)
 
 
