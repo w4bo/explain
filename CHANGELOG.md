@@ -1,3 +1,17 @@
+## [1.0.50](https://github.com/w4bo/explain/compare/1.0.49...1.0.50) (2023-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.13.0 ([cdc6e87](https://github.com/w4bo/explain/commit/cdc6e8700fb745132c7095cb60f07cac2c674c38))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.28 ([8604dd3](https://github.com/w4bo/explain/commit/8604dd32c466aa3d2a911f25e382ce3cb8c962a5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.30 ([ee96444](https://github.com/w4bo/explain/commit/ee96444155c6e5b998bcf9e47f171239de813ad1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([4a21287](https://github.com/w4bo/explain/commit/4a21287e3af820b39e885133427220294b9682f3))
+
 ## [1.0.49](https://github.com/w4bo/explain/compare/1.0.48...1.0.49) (2023-05-31)
 
 
