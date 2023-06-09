@@ -1,3 +1,10 @@
+## [1.0.51](https://github.com/w4bo/explain/compare/1.0.50...1.0.51) (2023-06-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.0.1-jre ([3fd2b3d](https://github.com/w4bo/explain/commit/3fd2b3dc4fdcbeda155ce4551b3cf193fa3659fd))
+
 ## [1.0.50](https://github.com/w4bo/explain/compare/1.0.49...1.0.50) (2023-06-08)
 
 
