@@ -1,3 +1,26 @@
+## [1.0.52](https://github.com/w4bo/explain/compare/1.0.51...1.0.52) (2023-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.json:json to v20230618 ([47dd101](https://github.com/w4bo/explain/commit/47dd1016b6985bf06c26863f76ee0ae3ebd4c0a4))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.3 ([0f83eb3](https://github.com/w4bo/explain/commit/0f83eb31528d2a05f3f1a85d4d1e6eafa0c80e5b))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.23.2 ([886a1a7](https://github.com/w4bo/explain/commit/886a1a77184cb45ffbd3affa486459f086495a0a))
+* **deps:** update dependency numpy to v1.25.0 ([9dd38c1](https://github.com/w4bo/explain/commit/9dd38c141d88311be264bfa1ab83f84876863d38))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.33 ([cac88a3](https://github.com/w4bo/explain/commit/cac88a31a91274875ef2f6bbe951ea02db188600))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.34 ([4e17080](https://github.com/w4bo/explain/commit/4e17080b5c83c29e6dfdff036068fe13659d6ac3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([e19de65](https://github.com/w4bo/explain/commit/e19de65d8ecbe4180043050b0562756a35147a38))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([8aa8750](https://github.com/w4bo/explain/commit/8aa875025c9f1688d1d3895088f70d25ee9a7800))
+* **deps:** update dependency sqlalchemy to v2.0.16 ([b14aaf0](https://github.com/w4bo/explain/commit/b14aaf08f1efda9b638094f2ac75ad25a5fb34d0))
+
 ## [1.0.51](https://github.com/w4bo/explain/compare/1.0.50...1.0.51) (2023-06-09)
 
 
