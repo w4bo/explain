@@ -1,3 +1,18 @@
+## [1.0.53](https://github.com/w4bo/explain/compare/1.0.52...1.0.53) (2023-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.2 ([81b1008](https://github.com/w4bo/explain/commit/81b100827e27620cb1407db6673d21e09fb2ce17))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.23.3 ([329e070](https://github.com/w4bo/explain/commit/329e070d16dba16d305bb364e663a6a48ecd1c2d))
+* **deps:** update dependency scipy to v1.11.0 ([6b47224](https://github.com/w4bo/explain/commit/6b4722475bbf3cef5fbc6d1ed57bd23dfb138f0a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([d09ef9a](https://github.com/w4bo/explain/commit/d09ef9abfcfb732430c5f27905c232913e082e30))
+* **deps:** update dependency sqlalchemy to v2.0.17 ([7bd6375](https://github.com/w4bo/explain/commit/7bd637549630872c5296952bbde9db7596a28761))
+
 ## [1.0.52](https://github.com/w4bo/explain/compare/1.0.51...1.0.52) (2023-06-18)
 
 
