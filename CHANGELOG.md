@@ -1,3 +1,15 @@
+## [1.0.54](https://github.com/w4bo/explain/compare/1.0.53...1.0.54) (2023-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.1.0-jre ([8756bdf](https://github.com/w4bo/explain/commit/8756bdf455f0dcc7df0026b2c996b7b62ff099a2))
+
+
+### Dependency updates
+
+* **deps:** update dependency scipy to v1.11.1 ([eb5124a](https://github.com/w4bo/explain/commit/eb5124ac1ecb5a8bb2a752cfa871e1a8f0807828))
+
 ## [1.0.53](https://github.com/w4bo/explain/compare/1.0.52...1.0.53) (2023-06-28)
 
 
