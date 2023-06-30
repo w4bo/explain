@@ -1,3 +1,15 @@
+## [1.0.55](https://github.com/w4bo/explain/compare/1.0.54...1.0.55) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.1.1-jre ([7ca5484](https://github.com/w4bo/explain/commit/7ca54841b4d291e8dbdf6b99d68d96f5d64f1714))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6.2 ([d8df905](https://github.com/w4bo/explain/commit/d8df905a499e9f18002f3d4e953372ea95887095))
+
 ## [1.0.54](https://github.com/w4bo/explain/compare/1.0.53...1.0.54) (2023-06-29)
 
 
