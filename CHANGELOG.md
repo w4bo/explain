@@ -1,3 +1,30 @@
+## [1.0.56](https://github.com/w4bo/explain/compare/1.0.55...1.0.56) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.0 ([51f1705](https://github.com/w4bo/explain/commit/51f170552b7376af5df37e720d6cf847a09974c2))
+
+
+### Build and continuous integration
+
+* **deps:** update jamesives/github-pages-deploy-action action to v4.4.3 ([b3e0a71](https://github.com/w4bo/explain/commit/b3e0a71ebaa78ce83613fb61e6acc62fe254aa4c))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.24.0 ([018f202](https://github.com/w4bo/explain/commit/018f2023b538f9ecdf72aa2d3ccc22a941f4e2ea))
+* **deps:** update dependency matplotlib to v3.7.2 ([b57a09a](https://github.com/w4bo/explain/commit/b57a09adc65af9ab0eedaab6848392ea2736e984))
+* **deps:** update dependency numpy to v1.25.1 ([b444b0b](https://github.com/w4bo/explain/commit/b444b0b56eb01e1dd7fa2d722547d173a5280197))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([e126a7b](https://github.com/w4bo/explain/commit/e126a7ba7b11efecd2190daae3d7d51a287125d1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([0873dfe](https://github.com/w4bo/explain/commit/0873dfe91c2f282b236743fd26fdf56e28b165e6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([5465590](https://github.com/w4bo/explain/commit/5465590d25b3d6faf8b4662f23eedf43c57c1bd3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([fc04687](https://github.com/w4bo/explain/commit/fc0468731648f1091d84014aec80352ea2b410cc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([db06910](https://github.com/w4bo/explain/commit/db06910683ccd2009a7cc4129d5dccf58f105ad0))
+* **deps:** update dependency sqlalchemy to v2.0.18 ([fdcd1fd](https://github.com/w4bo/explain/commit/fdcd1fddac9a2cab7b839496a7c6f1acb4e51a51))
+* **deps:** update dependency sqlalchemy to v2.0.19 ([7e0f594](https://github.com/w4bo/explain/commit/7e0f5948b3c8035bf8c9508ebbf1faf952387a36))
+* **deps:** update node.js to 18.17 ([8b23f10](https://github.com/w4bo/explain/commit/8b23f106dc0750d91d935f83d6214a88c1573ebf))
+
 ## [1.0.55](https://github.com/w4bo/explain/compare/1.0.54...1.0.55) (2023-06-30)
 
 
