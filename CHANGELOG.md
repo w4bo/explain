@@ -1,3 +1,20 @@
+## [1.0.58](https://github.com/w4bo/explain/compare/1.0.57...1.0.58) (2023-07-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.commons:commons-lang3 to v3.13.0 ([f90fd5b](https://github.com/w4bo/explain/commit/f90fd5bd4ef5ccaedd306071f02bbdedcc9f52bd))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.12.0 ([fdf44de](https://github.com/w4bo/explain/commit/fdf44de1e7591d2e1111d21a72e80b904834fb90))
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.25.0 ([e7ef52b](https://github.com/w4bo/explain/commit/e7ef52bfef179ff90f13c2ddf97efae5f754fd4b))
+
 ## [1.0.57](https://github.com/w4bo/explain/compare/1.0.56...1.0.57) (2023-07-24)
 
 
