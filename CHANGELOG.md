@@ -1,3 +1,15 @@
+## [1.0.59](https://github.com/w4bo/explain/compare/1.0.58...1.0.59) (2023-07-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.9.2 ([3c808c2](https://github.com/w4bo/explain/commit/3c808c22400cf3248f35fae7a360eb7d09d8e6be))
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.25.2 ([ba69bed](https://github.com/w4bo/explain/commit/ba69bed21efa05099b21dc2a14369fcc67909d3e))
+
 ## [1.0.58](https://github.com/w4bo/explain/compare/1.0.57...1.0.58) (2023-07-28)
 
 
