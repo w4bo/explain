@@ -1,3 +1,10 @@
+## [1.0.61](https://github.com/w4bo/explain/compare/1.0.60...1.0.61) (2023-08-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.3 ([adc6cdd](https://github.com/w4bo/explain/commit/adc6cddb29e473a210e7f7f17047f3ac0b135ff4))
+
 ## [1.0.60](https://github.com/w4bo/explain/compare/1.0.59...1.0.60) (2023-08-01)
 
 
