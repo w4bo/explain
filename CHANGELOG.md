@@ -1,3 +1,31 @@
+## [1.0.62](https://github.com/w4bo/explain/compare/1.0.61...1.0.62) (2023-08-31)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.25.1 ([74d900e](https://github.com/w4bo/explain/commit/74d900e8495402f1b064bef06d5b6ea949c3fb47))
+* **deps:** update dependency scipy to v1.11.2 ([d587155](https://github.com/w4bo/explain/commit/d58715587289d2ff71c831326e8d8cdf420f9695))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([0562477](https://github.com/w4bo/explain/commit/05624770bc1a9f8fc5c0dff114b73ec601b0fe31))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([1a10764](https://github.com/w4bo/explain/commit/1a10764ffc5763298d571d133f2707746f2b5e3e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([51fe85f](https://github.com/w4bo/explain/commit/51fe85fc5bc15a10e29309767e312e26ebdabd68))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([86b3ab1](https://github.com/w4bo/explain/commit/86b3ab12ad15166169e48eebedab0e9043d3bcd0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([e6d3254](https://github.com/w4bo/explain/commit/e6d3254eb8e11f57713ffcefa5d72d1c6f280dca))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([dbcb4f7](https://github.com/w4bo/explain/commit/dbcb4f7b4e23ade62cd39e0caba95cb2b08ec261))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([b20d37a](https://github.com/w4bo/explain/commit/b20d37afc44094e2d15dddc88e49aba986e08447))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([2a54767](https://github.com/w4bo/explain/commit/2a54767167003cd2d41b73747728f2b514badb33))
+* **deps:** update dependency sqlalchemy to v2.0.20 ([b6515f6](https://github.com/w4bo/explain/commit/b6515f65734e33ddd1ce95bd2eee9622a2aeca54))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.4 ([8fa17d3](https://github.com/w4bo/explain/commit/8fa17d32f641f6f40c9115230d530a87cb1699ef))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.6.0 ([406c6b6](https://github.com/w4bo/explain/commit/406c6b6b80a0c7b4116e31b0a64413257cf73080))
+* **deps:** update dependency ubuntu to v22 ([04fe4c2](https://github.com/w4bo/explain/commit/04fe4c229d02bba718fbcb42498be3665c740052))
+
 ## [1.0.61](https://github.com/w4bo/explain/compare/1.0.60...1.0.61) (2023-08-01)
 
 
