@@ -1,3 +1,15 @@
+## [1.0.63](https://github.com/w4bo/explain/compare/1.0.62...1.0.63) (2023-09-03)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([e5516db](https://github.com/w4bo/explain/commit/e5516db176ef7d1f380fb428cf6ed50ff65d9bfc))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.9 ([fe4f1df](https://github.com/w4bo/explain/commit/fe4f1df660b2d9af01de40660829e1ded115f29e))
+
 ## [1.0.62](https://github.com/w4bo/explain/compare/1.0.61...1.0.62) (2023-08-31)
 
 
