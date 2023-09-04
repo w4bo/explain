@@ -1,3 +1,10 @@
+## [1.0.64](https://github.com/w4bo/explain/compare/1.0.63...1.0.64) (2023-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-log4j12 to v2.0.9 ([ea0988a](https://github.com/w4bo/explain/commit/ea0988a4e27aefa44a88caaf61ba7207b4fa4530))
+
 ## [1.0.63](https://github.com/w4bo/explain/compare/1.0.62...1.0.63) (2023-09-03)
 
 
