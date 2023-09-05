@@ -1,3 +1,20 @@
+## [1.0.65](https://github.com/w4bo/explain/compare/1.0.64...1.0.65) (2023-09-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.25.2 ([2ba73ef](https://github.com/w4bo/explain/commit/2ba73ef8cb979e08725b01588ea498ebc0c1e4e2))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.antlr:antlr4 to v4.13.1 ([018bdee](https://github.com/w4bo/explain/commit/018bdeefdcf3b5e86d0b297627fe18bea5d9a8d0))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([49c5f77](https://github.com/w4bo/explain/commit/49c5f77af0d2ba5572bde4596ed4b4783379ac8f))
+
 ## [1.0.64](https://github.com/w4bo/explain/compare/1.0.63...1.0.64) (2023-09-04)
 
 
