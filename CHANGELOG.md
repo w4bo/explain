@@ -1,3 +1,33 @@
+## [1.0.66](https://github.com/w4bo/explain/compare/1.0.65...1.0.66) (2023-09-24)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.3 ([a906420](https://github.com/w4bo/explain/commit/a90642099e27fe3cc3aca4b68c31cfe2501796aa))
+* **deps:** update dependency matplotlib to v3.8.0 ([bfdf7df](https://github.com/w4bo/explain/commit/bfdf7df090e06809ba02850922f7fdd3c9590a14))
+* **deps:** update dependency numpy to v1.26.0 ([fe0cb76](https://github.com/w4bo/explain/commit/fe0cb762bb0b8c3573619cc7de6d5b903f1af405))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([3f99bb3](https://github.com/w4bo/explain/commit/3f99bb38a2d1defb9cb3cabbc61b92a510ffb9d6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([41f86cd](https://github.com/w4bo/explain/commit/41f86cdb1ad26399bf8cb1165139c8aa5318b147))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([7ee26a2](https://github.com/w4bo/explain/commit/7ee26a2f20152fafd4277560a83d184a0bb1caee))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([0bd4dae](https://github.com/w4bo/explain/commit/0bd4dae43cd4925dfa452572eb71e6e85f815b8d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.59 ([bc4092a](https://github.com/w4bo/explain/commit/bc4092a6879193df5a9b754ac3088150d11a9fae))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([cc06f03](https://github.com/w4bo/explain/commit/cc06f03c3fc9f73ccee3e0c49009cdb5ceec840f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([58e24dc](https://github.com/w4bo/explain/commit/58e24dc78d697813c6df2e95620c6cd9e58a3b0f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([0229456](https://github.com/w4bo/explain/commit/022945697bd506a4aab9165ce1079dab69ea83a8))
+* **deps:** update dependency sqlalchemy to v2.0.21 ([014ea15](https://github.com/w4bo/explain/commit/014ea1540008d5494c5861090e414d94930d8622))
+* **deps:** update node.js to 18.18 ([d7a3d5f](https://github.com/w4bo/explain/commit/d7a3d5fac7874380e776814a42105f872316504f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency edu.stanford.nlp:stanford-corenlp to v4.5.5 ([9992128](https://github.com/w4bo/explain/commit/99921288fd8d449903b69877982cb1c3eb356e06))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.0 ([4a3cdc0](https://github.com/w4bo/explain/commit/4a3cdc04b1a0484ef800885dd275427d4fb40095))
+* **deps:** update actions/setup-java action to v3.13.0 ([ee1c617](https://github.com/w4bo/explain/commit/ee1c61707af9de29f4c23128979df95e4c8055f0))
+
 ## [1.0.65](https://github.com/w4bo/explain/compare/1.0.64...1.0.65) (2023-09-05)
 
 
