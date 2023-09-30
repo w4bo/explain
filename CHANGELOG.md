@@ -1,3 +1,19 @@
+## [1.0.67](https://github.com/w4bo/explain/compare/1.0.66...1.0.67) (2023-09-30)
+
+
+### Dependency updates
+
+* **deps:** update dependency scipy to v1.11.3 ([8f9b64f](https://github.com/w4bo/explain/commit/8f9b64f864f53f3edc748cd3cbc6a5c8c639d11c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([8b0515c](https://github.com/w4bo/explain/commit/8b0515cc0a38bbacbb491903b2e50ec40eeafa7e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([f7519bd](https://github.com/w4bo/explain/commit/f7519bd079da8af351eacfe1f8d40c39ddf0bcaf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([3565445](https://github.com/w4bo/explain/commit/3565445f7682c97dda2bb2def35eb80521171c4f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([b229fa3](https://github.com/w4bo/explain/commit/b229fa381aaa5739652f66b530a222edb3764797))
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.14.0 ([dad0e83](https://github.com/w4bo/explain/commit/dad0e83b4b075cb35c41ccba2d6a07f48d72eb7b))
+
 ## [1.0.66](https://github.com/w4bo/explain/compare/1.0.65...1.0.66) (2023-09-24)
 
 
