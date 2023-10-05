@@ -1,3 +1,17 @@
+## [1.0.68](https://github.com/w4bo/explain/compare/1.0.67...1.0.68) (2023-10-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6.3 ([b0960a9](https://github.com/w4bo/explain/commit/b0960a9235e295baf2c1f2a4186eb8a103176ea9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([0ac8231](https://github.com/w4bo/explain/commit/0ac82318ec6c29f4c55a05fe302be18567805b0a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([3ebe6b7](https://github.com/w4bo/explain/commit/3ebe6b724fe5f9ce749f8f258fd5fa50ff6bf193))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.5 ([820d5f6](https://github.com/w4bo/explain/commit/820d5f66c1df70a472e9f728068b4ef491867eee))
+
 ## [1.0.67](https://github.com/w4bo/explain/compare/1.0.66...1.0.67) (2023-09-30)
 
 
