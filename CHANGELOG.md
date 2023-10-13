@@ -1,3 +1,15 @@
+## [1.0.69](https://github.com/w4bo/explain/compare/1.0.68...1.0.69) (2023-10-13)
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2.0.22 ([a648e68](https://github.com/w4bo/explain/commit/a648e685dcf8066ecf4754d38dbcc536395a2010))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.15.3 ([6fa4fed](https://github.com/w4bo/explain/commit/6fa4fedd4e3a628ec9d14bd69514f2b645ad39a8))
+
 ## [1.0.68](https://github.com/w4bo/explain/compare/1.0.67...1.0.68) (2023-10-05)
 
 
