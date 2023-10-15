@@ -1,3 +1,10 @@
+## [1.0.72](https://github.com/w4bo/explain/compare/1.0.71...1.0.72) (2023-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.json:json to v20231013 ([135fd37](https://github.com/w4bo/explain/commit/135fd372a2e4d395b748e3b50bfd885a86584e44))
+
 ## [1.0.71](https://github.com/w4bo/explain/compare/1.0.70...1.0.71) (2023-10-15)
 
 
