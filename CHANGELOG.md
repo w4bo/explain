@@ -1,3 +1,15 @@
+## [1.0.71](https://github.com/w4bo/explain/compare/1.0.70...1.0.71) (2023-10-15)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.1 ([5cef7c7](https://github.com/w4bo/explain/commit/5cef7c7ee08648ce5b131dea171df3b5e467ee19))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.1.3-jre ([6484f48](https://github.com/w4bo/explain/commit/6484f482bf9da671dde4eb5f0778f4c8251742a3))
+
 ## [1.0.70](https://github.com/w4bo/explain/compare/1.0.69...1.0.70) (2023-10-13)
 
 
