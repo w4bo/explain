@@ -1,3 +1,24 @@
+## [1.0.73](https://github.com/w4bo/explain/compare/1.0.72...1.0.73) (2023-10-26)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.26.0 ([4228bd6](https://github.com/w4bo/explain/commit/4228bd63564579c39cc66822e62a6ac7d1368981))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([0fc787e](https://github.com/w4bo/explain/commit/0fc787e856779a0db6f60f755400a498af5c5f4f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([18ecbad](https://github.com/w4bo/explain/commit/18ecbad0d942bcb3c98b74beb2c0226b0fb17e58))
+* **deps:** update node.js to 20.9 ([ff9c63c](https://github.com/w4bo/explain/commit/ff9c63c1c4a060b3b430b0194cd27a4e3cd67194))
+* **deps:** update node.js to v20 ([acc23f4](https://github.com/w4bo/explain/commit/acc23f419ab47ef3304ce038757c64ed01fccb2d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.15.0 ([c91bd98](https://github.com/w4bo/explain/commit/c91bd98f3481e332e04ad9f1afb5d34be9f6f735))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([6fa427a](https://github.com/w4bo/explain/commit/6fa427afe9cf900b31597084dbb5fc1b19cdf95e))
+
 ## [1.0.72](https://github.com/w4bo/explain/compare/1.0.71...1.0.72) (2023-10-15)
 
 
