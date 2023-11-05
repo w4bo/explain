@@ -1,3 +1,17 @@
+## [1.0.74](https://github.com/w4bo/explain/compare/1.0.73...1.0.74) (2023-11-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.8.1 ([9bbb14e](https://github.com/w4bo/explain/commit/9bbb14ecbcb0b99bfc1e67c3bed189128fc9951d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([412cc36](https://github.com/w4bo/explain/commit/412cc362f303be5233ea5b295cd01e12b8d2eefc))
+* **deps:** update dependency sqlalchemy to v2.0.23 ([23354a5](https://github.com/w4bo/explain/commit/23354a562fb34ebc9f00c25717511a551e5e1c81))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.1 ([c816660](https://github.com/w4bo/explain/commit/c81666089243d2bb0b911ed9db81b5ad162f2c0c))
+
 ## [1.0.73](https://github.com/w4bo/explain/compare/1.0.72...1.0.73) (2023-10-26)
 
 
