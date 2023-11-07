@@ -1,3 +1,17 @@
+## [1.0.75](https://github.com/w4bo/explain/compare/1.0.74...1.0.75) (2023-11-07)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([18fd44f](https://github.com/w4bo/explain/commit/18fd44f1a071be81cbdc0770bf3bfc49e461b6de))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.73 ([c7d7b2b](https://github.com/w4bo/explain/commit/c7d7b2b2be6df448dafa57a2a540460e10e24a1c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.74 ([327bf9f](https://github.com/w4bo/explain/commit/327bf9f44f06f992e8898ce6336a7835110f00b0))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.6 ([271a54d](https://github.com/w4bo/explain/commit/271a54df0f1ae69effe7964853ef9f26d955e3f8))
+
 ## [1.0.74](https://github.com/w4bo/explain/compare/1.0.73...1.0.74) (2023-11-05)
 
 
