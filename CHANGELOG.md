@@ -1,3 +1,17 @@
+## [1.0.76](https://github.com/w4bo/explain/compare/1.0.75...1.0.76) (2023-11-16)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.2 ([20b3cde](https://github.com/w4bo/explain/commit/20b3cded1256fd31fb6e6969d1d9bdf87ace5f99))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([5612889](https://github.com/w4bo/explain/commit/561288952565dd7e938ab71fada0f34269e528c9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([e40a3aa](https://github.com/w4bo/explain/commit/e40a3aa03400092585cf5ed1a285fc9010618641))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml to v2.16.0 ([e6567bc](https://github.com/w4bo/explain/commit/e6567bcc29cd2a6df0cc17fbedafd36c52a963f5))
+
 ## [1.0.75](https://github.com/w4bo/explain/compare/1.0.74...1.0.75) (2023-11-07)
 
 
