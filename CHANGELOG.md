@@ -1,3 +1,10 @@
+## [1.0.79](https://github.com/w4bo/explain/compare/1.0.78...1.0.79) (2023-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.opencsv:opencsv to v5.9 ([c07af86](https://github.com/w4bo/explain/commit/c07af86abc50adf3d12f2ee52cf48ed1e0a70900))
+
 ## [1.0.78](https://github.com/w4bo/explain/compare/1.0.77...1.0.78) (2023-11-22)
 
 
