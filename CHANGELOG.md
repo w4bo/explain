@@ -1,3 +1,18 @@
+## [1.0.78](https://github.com/w4bo/explain/compare/1.0.77...1.0.78) (2023-11-22)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.27.0 ([1d04b15](https://github.com/w4bo/explain/commit/1d04b152e29ca3126143b260a81cff50235e3a3b))
+* **deps:** update dependency matplotlib to v3.8.2 ([5707ee8](https://github.com/w4bo/explain/commit/5707ee8f88012da1aacd69008f2ef240c24461e9))
+* **deps:** update dependency scipy to v1.11.4 ([8d79477](https://github.com/w4bo/explain/commit/8d79477d825260d5adf789017bd8d4c854dd58ee))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([e51f90e](https://github.com/w4bo/explain/commit/e51f90ed5357cfd8ecb9678b9f9468d5ad9aba17))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.commons:commons-lang3 to v3.14.0 ([98aad34](https://github.com/w4bo/explain/commit/98aad34b244a9e1c96131bdf98eb276c1d485603))
+
 ## [1.0.77](https://github.com/w4bo/explain/compare/1.0.76...1.0.77) (2023-11-16)
 
 
