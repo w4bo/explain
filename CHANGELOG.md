@@ -1,3 +1,23 @@
+## [1.0.80](https://github.com/w4bo/explain/compare/1.0.79...1.0.80) (2023-11-30)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.27.1 ([3958665](https://github.com/w4bo/explain/commit/3958665e8188c8e71e109b2f77f09c79a529f76b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([5926ae7](https://github.com/w4bo/explain/commit/5926ae740fa753d81f8065b5ca05b9a505ebf55e))
+* **deps:** update node.js to 20.10 ([bad3384](https://github.com/w4bo/explain/commit/bad338464afb92824d153806f9e3ef1cf0768261))
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.15.1 ([a18603a](https://github.com/w4bo/explain/commit/a18603ab807fe96f8e95a81ee2c3064937d9cfa5))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4 ([77393fb](https://github.com/w4bo/explain/commit/77393fbac797440badd26a48d1ed4de6a8aa837d))
+* **deps:** update jamesives/github-pages-deploy-action action to v4.5.0 ([5409cb9](https://github.com/w4bo/explain/commit/5409cb90e4af2850d2fe79417995be58395837c7))
+
 ## [1.0.79](https://github.com/w4bo/explain/compare/1.0.78...1.0.79) (2023-11-22)
 
 
