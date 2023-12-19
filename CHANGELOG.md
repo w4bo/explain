@@ -1,3 +1,19 @@
+## [1.0.82](https://github.com/w4bo/explain/compare/1.0.81...1.0.82) (2023-12-19)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([4d5b670](https://github.com/w4bo/explain/commit/4d5b6704262fc6c2043f2ba4e2791f8feafc740a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([44a9b33](https://github.com/w4bo/explain/commit/44a9b338b8c03749e9837b3e91a533368b00b9fe))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([4cd04ce](https://github.com/w4bo/explain/commit/4cd04ce5f0be11a4f28147d391d948bd8464c88b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([1f234da](https://github.com/w4bo/explain/commit/1f234da503ffc3e9223490e70261fab93543d2e9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([0ff10e7](https://github.com/w4bo/explain/commit/0ff10e78cfa2ef09c32cd2cc7efaaaaa2c2e38fb))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33 ([f1a51d2](https://github.com/w4bo/explain/commit/f1a51d2d2084db0dc78364e6bcbe928ce945573b))
+
 ## [1.0.81](https://github.com/w4bo/explain/compare/1.0.80...1.0.81) (2023-12-07)
 
 
