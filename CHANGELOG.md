@@ -1,3 +1,17 @@
+## [1.0.85](https://github.com/w4bo/explain/compare/1.0.84...1.0.85) (2023-12-29)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.28.0 ([be3c758](https://github.com/w4bo/explain/commit/be3c7584f3fc9cb73753c7c98ab67e281520ccc5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([569fa73](https://github.com/w4bo/explain/commit/569fa73b0f20acb58140013de124ef949f63ec4d))
+* **deps:** update dependency sqlalchemy to v2.0.24 ([d087ab5](https://github.com/w4bo/explain/commit/d087ab5f3f27e861699d9e264b9588550e158c3d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.10 ([2428435](https://github.com/w4bo/explain/commit/24284353af7c4af17108fc773bd0fdd4ad5c522f))
+
 ## [1.0.84](https://github.com/w4bo/explain/compare/1.0.83...1.0.84) (2023-12-24)
 
 
