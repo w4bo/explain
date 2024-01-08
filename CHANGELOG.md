@@ -1,3 +1,16 @@
+## [1.0.87](https://github.com/w4bo/explain/compare/1.0.86...1.0.87) (2024-01-08)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.3 ([9a8f4ef](https://github.com/w4bo/explain/commit/9a8f4effd4f2950398ad3cb291fb6f6e8cc74b97))
+* **deps:** update dependency sqlalchemy to v2.0.25 ([800a071](https://github.com/w4bo/explain/commit/800a071dbce5eb7d96305ea683570aef74c716ed))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.11 ([5c4bfae](https://github.com/w4bo/explain/commit/5c4bfae65084252d7744546eb5a6e8cc198583af))
+
 ## [1.0.86](https://github.com/w4bo/explain/compare/1.0.85...1.0.86) (2023-12-29)
 
 
