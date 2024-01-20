@@ -1,3 +1,16 @@
+## [1.0.89](https://github.com/w4bo/explain/compare/1.0.88...1.0.89) (2024-01-20)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.29.0 ([a51c2b5](https://github.com/w4bo/explain/commit/a51c2b5d7833750b3b20eb15d7dba07027c266b0))
+* **deps:** update node.js to 20.11 ([5432446](https://github.com/w4bo/explain/commit/543244682e8724bbcfe7b4253eabc552ce4b2f8f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.doyaaaaaken:kotlin-csv-jvm to v1.9.3 ([c0c1777](https://github.com/w4bo/explain/commit/c0c17771c77d3d80ecc2f4c35b911eb453a3f314))
+
 ## [1.0.88](https://github.com/w4bo/explain/compare/1.0.87...1.0.88) (2024-01-09)
 
 
