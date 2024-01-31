@@ -1,3 +1,15 @@
+## [1.0.90](https://github.com/w4bo/explain/compare/1.0.89...1.0.90) (2024-01-31)
+
+
+### Dependency updates
+
+* **deps:** update dependency scipy to v1.12.0 ([cc44a0f](https://github.com/w4bo/explain/commit/cc44a0f8c229de6628aeb203fe5b9f916de0760e))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.8 ([f8ec9bb](https://github.com/w4bo/explain/commit/f8ec9bb43855900cc2317ed2a6c1fb28d2ccd7b9))
+
 ## [1.0.89](https://github.com/w4bo/explain/compare/1.0.88...1.0.89) (2024-01-20)
 
 
