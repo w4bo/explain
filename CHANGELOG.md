@@ -1,3 +1,10 @@
+## [1.0.91](https://github.com/w4bo/explain/compare/1.0.90...1.0.91) (2024-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency edu.stanford.nlp:stanford-corenlp to v4.5.6 ([a177fd9](https://github.com/w4bo/explain/commit/a177fd98f761600bd0bc43b95bf58dd39f7829bd))
+
 ## [1.0.90](https://github.com/w4bo/explain/compare/1.0.89...1.0.90) (2024-01-31)
 
 
