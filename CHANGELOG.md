@@ -1,3 +1,10 @@
+## [1.0.94](https://github.com/w4bo/explain/compare/1.0.93...1.0.94) (2024-02-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.json:json to v20240205 ([6f02629](https://github.com/w4bo/explain/commit/6f02629745aef942a0c6d9d36126c742b1aa1f17))
+
 ## [1.0.93](https://github.com/w4bo/explain/compare/1.0.92...1.0.93) (2024-02-06)
 
 
