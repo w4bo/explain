@@ -1,3 +1,17 @@
+## [1.0.93](https://github.com/w4bo/explain/compare/1.0.92...1.0.93) (2024-02-06)
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6.4 ([29c7784](https://github.com/w4bo/explain/commit/29c77847dbf111bbd2b7e3f294cbcd9dfe50839f))
+* **deps:** update dependency ipykernel to v6.29.1 ([48c173c](https://github.com/w4bo/explain/commit/48c173cf3acf88b7419a6a171b445c09a44ce1bc))
+* **deps:** update dependency numpy to v1.26.4 ([a9708e5](https://github.com/w4bo/explain/commit/a9708e5d3c8418118ddeedf0355dd75c36a9e062))
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.12 ([be5b999](https://github.com/w4bo/explain/commit/be5b99967b8159fe25f96f71de8b3ea0d0a0bbf4))
+
 ## [1.0.92](https://github.com/w4bo/explain/compare/1.0.91...1.0.92) (2024-02-04)
 
 
