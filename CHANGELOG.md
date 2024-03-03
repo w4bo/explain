@@ -1,3 +1,24 @@
+## [1.0.95](https://github.com/w4bo/explain/compare/1.0.94...1.0.95) (2024-03-03)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.29.2 ([6c358f9](https://github.com/w4bo/explain/commit/6c358f935f7fd3c86ee81c384632206f906daa0e))
+* **deps:** update dependency ipykernel to v6.29.3 ([af75b36](https://github.com/w4bo/explain/commit/af75b36f482fdf2d760ae853c182f2169eb1ee21))
+* **deps:** update dependency matplotlib to v3.8.3 ([4e76206](https://github.com/w4bo/explain/commit/4e76206c37b8c486bcca22bbda8b050f6a704dc8))
+* **deps:** update dependency sqlalchemy to v2.0.26 ([2e3db4d](https://github.com/w4bo/explain/commit/2e3db4d7045a56a161240d60f74a22cb61369ad0))
+* **deps:** update dependency sqlalchemy to v2.0.27 ([f4d690f](https://github.com/w4bo/explain/commit/f4d690f3793aee3f4ec785c4286477c1f22e3576))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.json:json to v20240303 ([40d982d](https://github.com/w4bo/explain/commit/40d982db0c23b6a03bde4653f4f3006de6ad210c))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.1.0 ([472ce79](https://github.com/w4bo/explain/commit/472ce79d8ff612f24e4846d75fdbe5c1d68210d7))
+
 ## [1.0.94](https://github.com/w4bo/explain/compare/1.0.93...1.0.94) (2024-02-06)
 
 
