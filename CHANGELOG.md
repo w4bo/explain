@@ -1,3 +1,15 @@
+## [1.0.101](https://github.com/w4bo/explain/compare/1.0.100...1.0.101) (2024-03-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.1.0-jre ([2a5f88b](https://github.com/w4bo/explain/commit/2a5f88b69d3c5353d52c67c20e6b138c400013bf))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.2.0 ([2fd7554](https://github.com/w4bo/explain/commit/2fd7554f367a0543a015714a0658302ddb91b378))
+
 ## [1.0.100](https://github.com/w4bo/explain/compare/1.0.99...1.0.100) (2024-03-13)
 
 
