@@ -1,3 +1,21 @@
+## [1.0.102](https://github.com/w4bo/explain/compare/1.0.101...1.0.102) (2024-03-29)
+
+
+### Dependency updates
+
+* **deps:** update dependency sqlalchemy to v2.0.29 ([67e5098](https://github.com/w4bo/explain/commit/67e50988fc293670ebcdb0bd37b34cf4ffcea565))
+* **deps:** update node.js to 20.12 ([51f7674](https://github.com/w4bo/explain/commit/51f7674a9ae02403fe2c7e899a4a09587414d916))
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.16.0 ([75bc1e3](https://github.com/w4bo/explain/commit/75bc1e3e1dbbecccc6ed289fa46e5f53e0adf3b5))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.2.1 ([0817a07](https://github.com/w4bo/explain/commit/0817a07f1ad0a353e5276c5f675504e69d40f6de))
+
 ## [1.0.101](https://github.com/w4bo/explain/compare/1.0.100...1.0.101) (2024-03-14)
 
 
