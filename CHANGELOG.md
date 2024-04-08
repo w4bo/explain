@@ -1,3 +1,10 @@
+## [1.0.104](https://github.com/w4bo/explain/compare/1.0.103...1.0.104) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commons-io:commons-io to v2.16.1 ([15e48b2](https://github.com/w4bo/explain/commit/15e48b27fb650bd0860b663dc8e3dd49cca9a659))
+
 ## [1.0.103](https://github.com/w4bo/explain/compare/1.0.102...1.0.103) (2024-04-08)
 
 
