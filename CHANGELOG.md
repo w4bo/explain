@@ -1,3 +1,17 @@
+## [1.0.103](https://github.com/w4bo/explain/compare/1.0.102...1.0.103) (2024-04-08)
+
+
+### Dependency updates
+
+* **deps:** update dependency ipykernel to v6.29.4 ([2e411a6](https://github.com/w4bo/explain/commit/2e411a6b049c1bbdadfb8a9b62e61857acf4a49e))
+* **deps:** update dependency matplotlib to v3.8.4 ([4819c64](https://github.com/w4bo/explain/commit/4819c64e301926a0f1189fd890e91abd89a085ef))
+* **deps:** update dependency scipy to v1.13.0 ([518c8f6](https://github.com/w4bo/explain/commit/518c8f6cf7d6833241add8d2cc5658a60768a75f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.10 ([d7532e6](https://github.com/w4bo/explain/commit/d7532e6f234fa0e7a14c63fee93d3867e2315b2d))
+
 ## [1.0.102](https://github.com/w4bo/explain/compare/1.0.101...1.0.102) (2024-03-29)
 
 
