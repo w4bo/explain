@@ -1,3 +1,10 @@
+## [1.0.105](https://github.com/w4bo/explain/compare/1.0.104...1.0.105) (2024-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.13 ([999450b](https://github.com/w4bo/explain/commit/999450b0505756fb33606c64939d10cfd2750171))
+
 ## [1.0.104](https://github.com/w4bo/explain/compare/1.0.103...1.0.104) (2024-04-08)
 
 
