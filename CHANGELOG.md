@@ -1,3 +1,15 @@
+## [1.0.106](https://github.com/w4bo/explain/compare/1.0.105...1.0.106) (2024-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency edu.stanford.nlp:stanford-corenlp to v4.5.7 ([d91af97](https://github.com/w4bo/explain/commit/d91af972d535c50452ec951e68419f8b855e71c8))
+
+
+### Build and continuous integration
+
+* **deps:** update jamesives/github-pages-deploy-action action to v4.6.0 ([ac9b532](https://github.com/w4bo/explain/commit/ac9b5326ebd0af7802ced36b7de7acf58051d80a))
+
 ## [1.0.105](https://github.com/w4bo/explain/compare/1.0.104...1.0.105) (2024-04-12)
 
 
