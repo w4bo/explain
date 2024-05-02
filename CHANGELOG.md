@@ -1,3 +1,16 @@
+## [1.0.107](https://github.com/w4bo/explain/compare/1.0.106...1.0.107) (2024-05-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.2.0-jre ([4042e94](https://github.com/w4bo/explain/commit/4042e94d4bed41b72b02a4311d188c576937bea4))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([4d2f514](https://github.com/w4bo/explain/commit/4d2f51422a6232550169fb871f3d5f7679715418))
+* **deps:** update actions/checkout action to v4.1.4 ([c3ecb90](https://github.com/w4bo/explain/commit/c3ecb901cf8d6e0b6c16cb7ce09f696bd35ba7c7))
+
 ## [1.0.106](https://github.com/w4bo/explain/compare/1.0.105...1.0.106) (2024-04-19)
 
 
