@@ -1,3 +1,10 @@
+## [1.0.108](https://github.com/w4bo/explain/compare/1.0.107...1.0.108) (2024-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.commons:commons-csv to v1.11.0 ([b0f524e](https://github.com/w4bo/explain/commit/b0f524ef8682f4e38f8ad55ca2fcf32c22080014))
+
 ## [1.0.107](https://github.com/w4bo/explain/compare/1.0.106...1.0.107) (2024-05-02)
 
 
