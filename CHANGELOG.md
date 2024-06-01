@@ -1,3 +1,24 @@
+## [1.0.112](https://github.com/w4bo/explain/compare/1.0.111...1.0.112) (2024-06-01)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.9.0 ([aa7f696](https://github.com/w4bo/explain/commit/aa7f69666db5cbdcf2ec3325a9096c127c073b9f))
+* **deps:** update dependency scipy to v1.13.1 ([d3071ec](https://github.com/w4bo/explain/commit/d3071ecd6c347074a427e2db5ec810f318594049))
+* **deps:** update node.js to 20.14 ([81ab75b](https://github.com/w4bo/explain/commit/81ab75be46f9c84b4c263a782c6ba905471959e6))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.2.1-jre ([4265a53](https://github.com/w4bo/explain/commit/4265a53c6c61021107d53879713d04dfa0309621))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.5 ([40da50a](https://github.com/w4bo/explain/commit/40da50affb3b99b0dec1472208165b1a61d3faab))
+* **deps:** update actions/checkout action to v4.1.6 ([73651bb](https://github.com/w4bo/explain/commit/73651bb706adcbb8c396e8082a7467938ca4dd1d))
+* **deps:** update jamesives/github-pages-deploy-action action to v4.6.1 ([9bdc795](https://github.com/w4bo/explain/commit/9bdc795ac38225a7c52215dd12348071791d0665))
+
 ## [1.0.111](https://github.com/w4bo/explain/compare/1.0.110...1.0.111) (2024-05-08)
 
 
