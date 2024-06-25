@@ -1,3 +1,23 @@
+## [1.0.113](https://github.com/w4bo/explain/compare/1.0.112...1.0.113) (2024-06-25)
+
+
+### Dependency updates
+
+* **deps:** update dependency requests to v2.32.2 [security] ([de3e439](https://github.com/w4bo/explain/commit/de3e4396ff1229a794138b5251b938b6cbce6345))
+* **deps:** update dependency requests to v2.32.3 ([36cf86d](https://github.com/w4bo/explain/commit/36cf86d71bf37256f0891a4efcf73b9447412ed9))
+* **deps:** update dependency scipy to v1.14.0 ([f62f230](https://github.com/w4bo/explain/commit/f62f230656b825f99fea30ddf04ff53cf85d36d6))
+* **deps:** update dependency sqlalchemy to v2.0.31 ([4660e9b](https://github.com/w4bo/explain/commit/4660e9be3efa3b560b90ab2482c0a8b9de6a867b))
+
+
+### Bug Fixes
+
+* **deps:** update dependency io.ktor:ktor-server-servlet to v2.3.12 ([4085a89](https://github.com/w4bo/explain/commit/4085a8913ab63f68fa59eb68bcfa8ca43f2dbe12))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.7 ([df2dc23](https://github.com/w4bo/explain/commit/df2dc23f54f491097056c336d7ed556bf3985368))
+
 ## [1.0.112](https://github.com/w4bo/explain/compare/1.0.111...1.0.112) (2024-06-01)
 
 
