@@ -1,3 +1,15 @@
+## [1.0.114](https://github.com/w4bo/explain/compare/1.0.113...1.0.114) (2024-06-27)
+
+
+### Dependency updates
+
+* **deps:** update node.js to 20.15 ([7eed35a](https://github.com/w4bo/explain/commit/7eed35afc1f71b84227f63cf71eaee9c9b72ef67))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.3 ([81befa1](https://github.com/w4bo/explain/commit/81befa1084f4cfd79674b4f90eaddca9dd7ffd00))
+
 ## [1.0.113](https://github.com/w4bo/explain/compare/1.0.112...1.0.113) (2024-06-25)
 
 
